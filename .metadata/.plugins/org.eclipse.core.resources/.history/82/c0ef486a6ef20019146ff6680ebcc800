@@ -1,0 +1,13 @@
+package Stack;
+
+import java.util.Stack;
+
+public class MaxElement {
+	static Stack<Integer> abStack = new Stack<Integer>();
+	static Stack<Integer> minStack = new Stack<Integer>();
+
+	public static void main(String[] args) {
+
+	}
+
+}

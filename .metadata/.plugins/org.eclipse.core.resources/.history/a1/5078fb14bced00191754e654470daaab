@@ -1,0 +1,10 @@
+package com.Projectile;
+
+public class Calculation {
+
+	public int get_range(int initial_velocity,) {
+		
+		return 0;
+	}
+
+}

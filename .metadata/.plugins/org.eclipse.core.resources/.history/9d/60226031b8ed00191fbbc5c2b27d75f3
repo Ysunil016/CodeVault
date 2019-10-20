@@ -1,0 +1,24 @@
+import java.util.Queue;
+
+public class Start {
+
+	static Queue<Animal> animalStore = new Queue<Animal>() {
+	};
+
+	public static void main(String[] args) {
+
+	}
+
+	public
+
+	static class Animal {
+		private int counter;
+		private int type;
+		Animal next;
+		
+		Animal(int id,int type ){
+			
+		}
+		
+	}
+}

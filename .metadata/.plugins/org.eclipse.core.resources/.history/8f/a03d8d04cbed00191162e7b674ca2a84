@@ -1,0 +1,5 @@
+package Bean;
+
+public class Projectile_Trajectory {
+
+}

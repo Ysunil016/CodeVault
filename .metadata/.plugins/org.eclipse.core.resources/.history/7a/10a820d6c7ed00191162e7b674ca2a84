@@ -1,0 +1,96 @@
+package com.Ignite;
+
+import java.util.Scanner;
+
+import com.Conversion.Conversions;
+import com.Coordinates.Coordinates_Calculation;
+import com.Projectile.Projectile_Calculation;
+
+import Bean.DMS;
+import Bean.Degree;
+
+public class Start {
+	static Scanner scan = new Scanner(System.in);
+	static Conversions geoConversion = new Conversions();
+	static Coordinates_Calculation geoCalculations = new Coordinates_Calculation();
+	static Projectile_Calculation proCalculation = new Projectile_Calculation();
+
+	public static void main(String[] args) {
+//		degToDMS();
+//		DMSToDeg();
+//		degToRad();
+//		bearingConversion();
+//		lat_lng_distance();
+
+		System.out.println(proCalculation.get_range_ms((float) 230.12, 23) + " Meter");
+		System.out.println(proCalculation.max_height_ms((float) 230.12, 23));
+	}
+
+	static void degToDMS() {
+		System.out.println("Enter Latitude");
+		float lat_deg = scan.nextFloat();
+		System.out.println("Enter Longitude");
+		float long_deg = scan.nextFloat();
+		char lat_dir = 'N';
+		char long_dir = 'E';
+		if (lat_deg < 0)
+			lat_deg = 'S';
+		if (long_deg < 0)
+			long_dir = 'W';
+		Degree inDegLat = new Degree(lat_deg, lat_dir);
+		Degree inDegLong = new Degree(long_deg, long_dir);
+		DMS latDMS = geoConversion.conversionToDMS(inDegLat);
+		DMS longDMS = geoConversion.conversionToDMS(inDegLong);
+
+		System.out.println(latDMS.getDirection() + " with " + latDMS.getDegree() + " " + latDMS.getMinute() + " "
+				+ latDMS.getSecond());
+
+		System.out.println(longDMS.getDirection() + " with " + longDMS.getDegree() + " " + longDMS.getMinute() + " "
+				+ longDMS.getSecond());
+
+	}
+
+	static void DMSToDeg() {
+		System.out.println("Enter Latitude in DMS");
+		byte latDeg = scan.nextByte();
+		byte latMin = scan.nextByte();
+		float latSec = scan.nextFloat();
+		char latDir = (char) scan.next().charAt(0);
+		scan.nextLine();
+		System.out.println("Enter Longitude in DMS");
+		byte longDeg = scan.nextByte();
+		byte longMin = scan.nextByte();
+		float longSec = scan.nextFloat();
+		char longDir = (char) scan.next().charAt(0);
+		scan.nextLine();
+
+		DMS latDMS = new DMS(latDeg, latMin, latSec, latDir);
+		DMS longDMS = new DMS(longDeg, longMin, longSec, longDir);
+		Degree latDegRes = geoConversion.conversionToDegree(latDMS);
+		Degree longDegRes = geoConversion.conversionToDegree(longDMS);
+
+		System.out.println(latDegRes.getDegree() + " with " + latDegRes.getDirection());
+		System.out.println(longDegRes.getDegree() + " with " + longDegRes.getDirection());
+	}
+
+	static void degToRad() {
+		System.out.println(geoConversion.degreeToRadian(360));
+	}
+
+	static void bearingConversion() {
+		float lat_from = 55.739399F;
+		float lng_from = 37.592572F;
+		float lat_to = 55.735632F;
+		float lng_to = 37.678367F;
+		System.out.println(geoCalculations.bearing_lat_lng(lat_from, lng_from, lat_to, lng_to));
+	}
+
+	static void lat_lng_distance() {
+		float lat_from = 55.739399F;
+		float lng_from = 37.592572F;
+		float lat_to = 55.735632F;
+		float lng_to = 37.678367F;
+		System.out.println(geoCalculations.distatce_lat_lng(lat_from, lng_from, lat_to, lng_to));
+	}
+
+}

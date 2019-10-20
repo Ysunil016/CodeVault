@@ -1,0 +1,9 @@
+package com.Projectile;
+
+public class Calculation {
+
+	public int get_range() {
+		return 0;
+	}
+
+}

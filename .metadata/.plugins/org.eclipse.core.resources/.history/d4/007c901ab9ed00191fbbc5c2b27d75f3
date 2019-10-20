@@ -1,0 +1,24 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Start {
+	static Queue<Animal> queueStore = new LinkedList<AÏnimal>();
+	public static void main(String[] args) {
+		
+	}
+
+	public
+
+	static class Animal {
+		int id;
+		private int type;
+		Animal next = null;
+
+		Animal(int id, int type) {
+			this.id = id;
+			this.type = type;
+			this.next = null;
+		}
+
+	}
+}

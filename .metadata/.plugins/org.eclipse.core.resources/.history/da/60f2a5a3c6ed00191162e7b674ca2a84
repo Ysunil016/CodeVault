@@ -1,0 +1,11 @@
+package com.Projectile;
+
+public class Projectile_Calculation {
+
+	public float get_range_ms(float initial_velocity, float launch_degree) {
+		launch_degree = (float) ((float) launch_degree * Math.PI / 180);
+		float range = (float) ((initial_velocity * initial_velocity) * Math.sin((2 * launch_degree)));
+		return range;
+	}
+
+}
