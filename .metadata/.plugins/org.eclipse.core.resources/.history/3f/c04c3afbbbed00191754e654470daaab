@@ -1,5 +1,0 @@
-package com.Constants;
-
-public class GeoConstants {
-	public float gravity_ms = 9.8;
-}

@@ -1,9 +1,0 @@
-package com.Start;
-
-public class EasySumSet {
-
-	public static void main(String[] args) {
-		
-	}
-
-}
