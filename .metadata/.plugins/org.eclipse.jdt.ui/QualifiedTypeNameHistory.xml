@@ -5,7 +5,6 @@
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="Processes.Process_One"/>
     <fullyQualifiedTypeName name="sun.java2d.loops.ProcessPath.ProcessHandler"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.lang.ProcessHandle"/>
     <fullyQualifiedTypeName name="Stack.Start.MyQueue"/>
@@ -13,7 +12,6 @@
     <fullyQualifiedTypeName name="jdk.internal.util.xml.impl.Input"/>
     <fullyQualifiedTypeName name="com.Tree.BinaryOperations"/>
     <fullyQualifiedTypeName name="java.math.MathContext"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="com.Conversion.Conversion"/>
     <fullyQualifiedTypeName name="Bean.DMS"/>
@@ -51,4 +49,6 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="jdk.tools.jlink.internal.plugins.IncludeLocalesPlugin"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
 </qualifiedTypeNameHistroy>

@@ -2,12 +2,16 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="geoConversion" key="selection"/>
+		<item value="minHeapify" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="minHeapify"/>
+			<item value="100001"/>
+			<item value="this."/>
+			<item value="private"/>
 			<item value="geoLib"/>
 			<item value="F"/>
 			<item value="longitude1"/>
@@ -15,8 +19,9 @@
 			<item value="stackTwo, stackTwo, "/>
 		</list>
 		<list key="replacehistory">
-			<item value="geoConversion"/>
 			<item value=""/>
+			<item value="static private"/>
+			<item value="geoConversion"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

@@ -1,7 +1,5 @@
 package com.Heap;
 
-import java.util.Arrays;
-
 public class JesseAndCookie {
 
 	static private int[] head;
@@ -103,8 +101,8 @@ public class JesseAndCookie {
 
 	}
 
-	static private void printHeap(int[] arr) {
-		for (int i = 1; i < arr.length; i++)
-			System.out.print(arr[i] + " ");
-	}
+//	static private void printHeap(int[] arr) {
+//		for (int i = 1; i < arr.length; i++)
+//			System.out.print(arr[i] + " ");
+//	}
 }
