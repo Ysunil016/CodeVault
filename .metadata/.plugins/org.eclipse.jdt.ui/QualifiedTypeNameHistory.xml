@@ -35,7 +35,6 @@
     <fullyQualifiedTypeName name="com.Coding.DogCatQueue.Dog"/>
     <fullyQualifiedTypeName name="com.Coding.DogCatQueue.Cat"/>
     <fullyQualifiedTypeName name="java.util.Queue"/>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.I2B"/>
@@ -55,4 +54,5 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
 </qualifiedTypeNameHistroy>
