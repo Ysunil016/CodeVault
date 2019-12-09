@@ -49,10 +49,19 @@ public class SubarrayWithGivenSum {
 				array[j] = scan.nextInt();
 			}
 
-			// Calling Function to find if there is any Combination
-			int[] result = SubarrayWithGivenSumMethodTwo(array, sumTotal);
+			// Calling Function to find if there is any Combination BruteForce
+			int[] result = SubarrayWithGivenSumMethodOne(array, sumTotal);
+
+			// Calling Function to find if there is any Combination Optimum
+			int[] result2 = SubarrayWithGivenSumMethodTwo(array, sumTotal);
+
 			if (result != null)
 				System.out.println(sumTotal + " has been Found in Indices from " + result[0] + " to " + result[1]);
+			else
+				System.out.println("No Match Found");
+
+			if (result2 != null)
+				System.out.println(sumTotal + " has been Found in Indices from " + result2[0] + " to " + result2[1]);
 			else
 				System.out.println("No Match Found");
 		}
@@ -88,20 +97,19 @@ public class SubarrayWithGivenSum {
 		// Finding SubArray from Given Array has Complexity O(n^2)
 		for (int i = 1; i < array.length; i++) {
 
-			//Checking if Current Total Index's Sum Overflows sumTotal
+			// Checking if Current Total Index's Sum Overflows sumTotal
 			while (currentSum > sumTotal && start < i - 1) {
 				currentSum -= array[start];
 				start++;
 			}
 
-			//If First CurrentSum is Found then Return
+			// If First CurrentSum is Found then Return
 			if (currentSum == sumTotal) {
 				result[0] = start + 1;
 				result[1] = i;
 				return result;
 			}
 
-			
 			if (i < array.length)
 				currentSum += array[i];
 
