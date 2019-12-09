@@ -2,12 +2,19 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="minHeapify" key="selection"/>
+		<item value="System.out" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="System.out"/>
+			<item value="System.Out"/>
+			<item value="system.out"/>
+			<item value="prlongLinkedList"/>
+			<item value="print"/>
+			<item value="prlongln"/>
+			<item value="int"/>
 			<item value="minHeapify"/>
 			<item value="100001"/>
 			<item value="this."/>
@@ -16,9 +23,12 @@
 			<item value="F"/>
 			<item value="longitude1"/>
 			<item value="longDir"/>
-			<item value="stackTwo, stackTwo, "/>
 		</list>
 		<list key="replacehistory">
+			<item value="printLinkedList"/>
+			<item value="println"/>
+			<item value="print"/>
+			<item value="long"/>
 			<item value=""/>
 			<item value="static private"/>
 			<item value="geoConversion"/>
@@ -28,7 +38,7 @@
 		<item value="294" key="DIALOG_WIDTH"/>
 		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
 		<item value="408" key="DIALOG_HEIGHT"/>
-		<item value="493" key="DIALOG_X_ORIGIN"/>
-		<item value="128" key="DIALOG_Y_ORIGIN"/>
+		<item value="804" key="DIALOG_X_ORIGIN"/>
+		<item value="22" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
