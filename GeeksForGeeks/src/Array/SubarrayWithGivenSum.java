@@ -89,6 +89,7 @@ public class SubarrayWithGivenSum {
 	}
 
 	// Optimum Solution with Complexity ~ O(n)
+	//************ It Doesn't Support for Negative Values
 	static int[] SubarrayWithGivenSumMethodTwo(int[] array, int sumTotal) {
 
 		int currentSum = array[0];
