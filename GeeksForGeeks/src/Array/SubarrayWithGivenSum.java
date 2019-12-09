@@ -50,7 +50,7 @@ public class SubarrayWithGivenSum {
 			}
 
 			// Calling Function to find if there is any Combination
-			int[] result = SubarrayWithGivenSumMethod(array, sumTotal);
+			int[] result = SubarrayWithGivenSumMethodTwo(array, sumTotal);
 			if (result != null)
 				System.out.println(sumTotal + " has been Found in Indices from " + result[0] + " to " + result[1]);
 			else
@@ -59,7 +59,8 @@ public class SubarrayWithGivenSum {
 
 	}
 
-	static int[] SubarrayWithGivenSumMethod(int[] array, int sumTotal) {
+	// Brute Force Solution with Complexity ~ O(n^2)
+	static int[] SubarrayWithGivenSumMethodOne(int[] array, int sumTotal) {
 
 		// Finding SubArray from Given Array has Complexity O(n^2)
 		for (int i = 0; i < array.length; i++) {
@@ -74,6 +75,36 @@ public class SubarrayWithGivenSum {
 					return resultArray;
 				}
 			}
+		}
+		return null;
+	}
+
+	// Optimum Solution with Complexity ~ O(n)
+	static int[] SubarrayWithGivenSumMethodTwo(int[] array, int sumTotal) {
+
+		int currentSum = array[0];
+		int start = 0;
+		int[] result = new int[2];
+		// Finding SubArray from Given Array has Complexity O(n^2)
+		for (int i = 1; i < array.length; i++) {
+
+			//Checking if Current Total Index's Sum Overflows sumTotal
+			while (currentSum > sumTotal && start < i - 1) {
+				currentSum -= array[start];
+				start++;
+			}
+
+			//If First CurrentSum is Found then Return
+			if (currentSum == sumTotal) {
+				result[0] = start + 1;
+				result[1] = i;
+				return result;
+			}
+
+			
+			if (i < array.length)
+				currentSum += array[i];
+
 		}
 		return null;
 	}
