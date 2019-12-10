@@ -3779,3 +3779,6 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY org.eclipse.jdt.launching 4 107 2019-12-10 19:03:36.692
 !MESSAGE Launch configuration TestRunner references non-existing project formsfx-core.
+
+!ENTRY org.eclipse.jdt.launching 4 107 2019-12-10 19:27:42.799
+!MESSAGE Launch configuration TestRunner references non-existing project formsfx-core.
