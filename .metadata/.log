@@ -3763,3 +3763,19 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY org.eclipse.jdt.launching 4 107 2019-12-09 21:47:35.399
 !MESSAGE Launch configuration TestRunner references non-existing project formsfx-core.
+
+!ENTRY org.eclipse.jdt.launching 4 107 2019-12-10 07:22:50.242
+!MESSAGE Launch configuration TestRunner references non-existing project formsfx-core.
+!SESSION 2019-12-10 18:46:09.283 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/sunil016/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/sunil016/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-12-10 18:46:22.223
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jdt.launching 4 107 2019-12-10 19:03:36.692
+!MESSAGE Launch configuration TestRunner references non-existing project formsfx-core.

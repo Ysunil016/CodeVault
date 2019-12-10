@@ -12,7 +12,7 @@ Print the maximum sum of the contiguous sub-array in a separate line for each te
 Constraints:
 1 ≤ T ≤ 110
 1 ≤ N ≤ 106
--107 ≤ A[i] <= 107
+-107 ≤ A[i] <= 107   
 
 Example:
 Input
@@ -29,6 +29,7 @@ Explanation:
 Testcase 1: Max subarray sum is 9 of elements (1, 2, 3, -2, 5) which is a contiguous subarray.
  */
 
+//Since Input is Bound in 107 Range We can use XOR Operator to find if element is making Contigous MAXIMA
 public class KadanesAlgorithm {
 
 	public static void main(String[] args) {
