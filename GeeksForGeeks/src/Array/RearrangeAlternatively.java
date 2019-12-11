@@ -85,4 +85,14 @@ public class RearrangeAlternatively {
 		printArray(result);
 
 	}
+
+	// Simple and Optimistic Approach
+	// Simple Reversing Numbers in Array from (n/2)+1 to n;
+//	int[] array = { 1, 2, 3, 4, 5, 6 };
+//	int[] array = { 1, 2, 3, 6, 5, 4 };
+//						6 1 5 2 4 3
+
+	
+	
+	
 }
