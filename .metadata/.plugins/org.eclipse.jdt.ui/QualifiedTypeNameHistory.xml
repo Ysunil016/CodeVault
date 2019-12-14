@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Start.Animal"/>
-    <fullyQualifiedTypeName name="com.Projectile.Projectile_Calculation"/>
-    <fullyQualifiedTypeName name="com.Constants.GeoConstants"/>
-    <fullyQualifiedTypeName name="Bean.Projectile_Trajectory"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
-    <fullyQualifiedTypeName name="Stack.AdvanceOperations"/>
-    <fullyQualifiedTypeName name="Stack.MaxElement"/>
-    <fullyQualifiedTypeName name="com.Coding.DogCatQueue.Animal"/>
-    <fullyQualifiedTypeName name="sun.nio.cs.ext.ISCII91"/>
-    <fullyQualifiedTypeName name="java.util.Deque"/>
     <fullyQualifiedTypeName name="com.Coding.DogCatQueue.Dog"/>
     <fullyQualifiedTypeName name="com.Coding.DogCatQueue.Cat"/>
     <fullyQualifiedTypeName name="java.util.Queue"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.I2B"/>
     <fullyQualifiedTypeName name="SinglyLinkedList.Node"/>
     <fullyQualifiedTypeName name="SinglyLinkedList.BasicOperations"/>
-    <fullyQualifiedTypeName name="java.util.Collection"/>
-    <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="jdk.tools.jlink.internal.plugins.IncludeLocalesPlugin"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.code.Attribute.Array"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
@@ -27,7 +15,6 @@
     <fullyQualifiedTypeName name="com.Array.MinimumAverageTimeL.Node"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="Graph.BFS.gNode"/>
     <fullyQualifiedTypeName name="Graph.DFS.gNode"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
@@ -36,17 +23,14 @@
     <fullyQualifiedTypeName name="LinkedList.MergeTwoSortedLinkedList.Node"/>
     <fullyQualifiedTypeName name="Tree.RandomTreeGrneration"/>
     <fullyQualifiedTypeName name="sun.awt.image.ImageWatched.Link"/>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="Tree.PreOrderTraversal"/>
     <fullyQualifiedTypeName name="Tree.PostOrderTraversal"/>
     <fullyQualifiedTypeName name="Tree.InOrderTraversal"/>
     <fullyQualifiedTypeName name="Tree.LevelOrderTraversal"/>
     <fullyQualifiedTypeName name="Tree.RandomTreeGeneration"/>
-    <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="apple.laf.JRSUIUtils.Tree"/>
-    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="Tree.TNode"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
@@ -56,8 +40,24 @@
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="Problems.mergeSortedList_21.Node"/>
-    <fullyQualifiedTypeName name="java.util.TreeMap"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="Tree.Problems.RightNeighbour.Node"/>
+    <fullyQualifiedTypeName name="Tree.Problems.LeftViewOfTree.Node"/>
+    <fullyQualifiedTypeName name="java.util.TreeMap"/>
+    <fullyQualifiedTypeName name="Tree.Problems.LowestCommonAncestorOfBST.Node"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.resources.legacy"/>
+    <fullyQualifiedTypeName name="Tree.Problems.BottomViewOfTree.Node"/>
+    <fullyQualifiedTypeName name="Tree.Problems.isBST.Node"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="com.sun.tools.classfile.StackMap_attribute.stack_map_frame"/>
+    <fullyQualifiedTypeName name="Tree.Problems.SpiralTreeTraversal.Node"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="Tree.Problems.BinaryToDLL.DLL"/>
+    <fullyQualifiedTypeName name="Tree.Problems.BinaryToDLL.Node"/>
 </qualifiedTypeNameHistroy>

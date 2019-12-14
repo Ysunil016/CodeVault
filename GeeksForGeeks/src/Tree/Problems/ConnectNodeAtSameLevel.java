@@ -3,7 +3,7 @@ package Tree.Problems;
 import java.util.ArrayList;
 import java.util.TreeMap;
 
-public class RightNeighbour {
+public class ConnectNodeAtSameLevel {
 
 	static class Node {
 		int data;
@@ -70,7 +70,7 @@ public class RightNeighbour {
 
 		ArrayList<Node> currentLevelNodes = nodeStore.get(level);
 		if (currentLevelNodes == null) {
-			currentLevelNodes = new ArrayList<RightNeighbour.Node>();
+			currentLevelNodes = new ArrayList<ConnectNodeAtSameLevel.Node>();
 		}
 		currentLevelNodes.add(root);
 		nodeStore.put(level, currentLevelNodes);
