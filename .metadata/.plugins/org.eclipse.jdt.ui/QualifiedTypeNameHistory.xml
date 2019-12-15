@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.Coding.DogCatQueue.Dog"/>
-    <fullyQualifiedTypeName name="com.Coding.DogCatQueue.Cat"/>
-    <fullyQualifiedTypeName name="java.util.Queue"/>
-    <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.I2B"/>
-    <fullyQualifiedTypeName name="SinglyLinkedList.Node"/>
-    <fullyQualifiedTypeName name="SinglyLinkedList.BasicOperations"/>
-    <fullyQualifiedTypeName name="jdk.tools.jlink.internal.plugins.IncludeLocalesPlugin"/>
-    <fullyQualifiedTypeName name="com.sun.tools.javac.code.Attribute.Array"/>
-    <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="com.sun.tools.classfile.Annotation.element_value"/>
     <fullyQualifiedTypeName name="java.lang.Number"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.resources.compiler"/>
     <fullyQualifiedTypeName name="com.Array.MinimumAverageTimeL.Node"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="Graph.BFS.gNode"/>
     <fullyQualifiedTypeName name="Graph.DFS.gNode"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
@@ -55,9 +44,20 @@
     <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="Tree.Problems.BinaryToDLL.DLL"/>
     <fullyQualifiedTypeName name="Tree.Problems.BinaryToDLL.Node"/>
+    <fullyQualifiedTypeName name="javax.tools.Tool"/>
+    <fullyQualifiedTypeName name="Tree.Problems.CommonAncestorofBST.Node"/>
+    <fullyQualifiedTypeName name="Tree.Problems.CountLeavesInBinaryTree.Node"/>
+    <fullyQualifiedTypeName name="Tree.Problems.isBinaryTreeBalanced.Node"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="Tree.Problems.isSymmetricBinaryTree.Node"/>
+    <fullyQualifiedTypeName name="Tree.Problems.DiameterOfBinaryTree.Height"/>
+    <fullyQualifiedTypeName name="Tree.Problems.DiameterOfBinaryTree.Node"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.Node"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="Tree.Problems.MaxSumPathInBinaryTree.Node"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="Tree.Problems.MaxSumPathInBinaryTree.Result"/>
 </qualifiedTypeNameHistroy>
