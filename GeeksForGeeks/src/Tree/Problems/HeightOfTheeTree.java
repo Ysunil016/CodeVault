@@ -1,6 +1,6 @@
 package Tree.Problems;
 
-public class BinaryToDLL {
+public class HeightOfTheeTree {
 
 	static class Node {
 		int data;
@@ -12,54 +12,18 @@ public class BinaryToDLL {
 		}
 	}
 
-	static class DLL {
-		int data;
-		DLL next = null;
-		DLL prev = null;
-
-		DLL(int data) {
-			this.data = data;
-		}
-	}
-
-	static Node head;
-	static Node prev = null;
-
 	public static void main(String[] args) {
 		Node rootN = new Node(69);
 		getRandomTreeGeneration(rootN, 2, 0);
-
-		head = bToDLL(rootN);
-		System.out.println();
-		while (head != null) {
-			System.out.print(head.data + " ");
-			head = head.right;
-		}
-
+		System.out.println(getHeightOfTheTree(rootN));
 	}
 
-	static Node bToDLL(Node root) {
-		BinaryTree2DoubleLinkedList(root);
-		return head;
-	}
-
-	static void BinaryTree2DoubleLinkedList(Node root) {
+	// Recursive Logic to Get Height of Tree
+	static int getHeightOfTheTree(Node root) {
 		if (root == null)
-			return;
+			return 0;
 
-		BinaryTree2DoubleLinkedList(root.left);
-
-		if (prev == null) {
-			head = root;
-		} else {
-			root.left = prev;
-			prev.right = root;
-		}
-
-		prev = root;
-
-		BinaryTree2DoubleLinkedList(root.right);
-
+		return Math.max(getHeightOfTheTree(root.left), getHeightOfTheTree(root.right)) + 1;
 	}
 
 	static Node getRandomTreeGeneration(Node root, int levelCounter, int currentCounter) {
