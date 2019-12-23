@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="maxStack" key="selection"/>
+		<item value="Node" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="TNode"/>
 			<item value="minStack"/>
 			<item value="StackNode"/>
 			<item value="System.out"/>
@@ -22,9 +23,9 @@
 			<item value="this."/>
 			<item value="private"/>
 			<item value="geoLib"/>
-			<item value="F"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Node"/>
 			<item value="maxStack"/>
 			<item value="QueueNode"/>
 			<item value="printLinkedList"/>
