@@ -52,18 +52,10 @@ public class SubarrayWithGivenSum {
 			// Calling Function to find if there is any Combination BruteForce
 			int[] result = SubarrayWithGivenSumMethodOne(array, sumTotal);
 
-			// Calling Function to find if there is any Combination Optimum
-			int[] result2 = SubarrayWithGivenSumMethodTwo(array, sumTotal);
-
 			if (result != null)
-				System.out.println(sumTotal + " has been Found in Indices from " + result[0] + " to " + result[1]);
+				System.out.println(result[0] + " " + result[1]);
 			else
-				System.out.println("No Match Found");
-
-			if (result2 != null)
-				System.out.println(sumTotal + " has been Found in Indices from " + result2[0] + " to " + result2[1]);
-			else
-				System.out.println("No Match Found");
+				System.out.println(-1);
 		}
 
 	}
@@ -89,7 +81,7 @@ public class SubarrayWithGivenSum {
 	}
 
 	// Optimum Solution with Complexity ~ O(n)
-	//************ It Doesn't Support for Negative Values
+	// ************ It Doesn't Support for Negative Values
 	static int[] SubarrayWithGivenSumMethodTwo(int[] array, int sumTotal) {
 
 		int currentSum = array[0];

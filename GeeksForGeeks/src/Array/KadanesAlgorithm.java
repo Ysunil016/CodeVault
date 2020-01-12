@@ -37,14 +37,11 @@ public class KadanesAlgorithm {
 		int[] array = { 1, 2, 3, -2, 5 };
 		int[] array2 = { -1, -2, -3, -4 };
 
-		System.out.println(findMaxContigousSubArray(array2));
 		System.out.println(findMaxContigousSubArray(array));
+		System.out.println(findMaxContigousSubArray(array2));
 
 		System.out.println();
-
-		System.out.println(findMaxContigousSubArray2(array2));
-		System.out.println(findMaxContigousSubArray2(array));
-
+	
 	}
 
 	// Generic BruteForce Approach
