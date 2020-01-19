@@ -36,11 +36,17 @@ public class MissingElement {
 
 	public static void main(String[] args) {
 
-		int[] input = { 1, 2, 3, 5, 6, 7, 8 };
-		System.out.println("Missing Element is " + findMissingElement(input, input.length + 1));
+		int[] input = { 1, 3,4, 5,6,7};
+		int[] input2 = { 1, 2, 3, 5, 6, 7, 8 };
+
+//		System.out.println("Missing Element is " + findMissingElement(input, input.length + 1));
 
 		//
-		System.out.println("Missing Element is " + findMissingElement2(input, input.length + 1));
+//		System.out.println("Missing Element is " + findMissingElement2(input, input.length + 1));
+
+		//
+		System.out.println("Missing Element is " + findMissingElement3(input, input.length));
+		System.out.println("Missing Element is " + findMissingElement3(input2, input2.length));
 
 	}
 
@@ -69,6 +75,19 @@ public class MissingElement {
 		}
 
 		return totalMax - foundSum;
+	}
+
+	static int findMissingElement3(int[] array, int totalSize) {
+		int x2 = 1;
+		int x1 = array[0];
+		for (int j = 1; j < totalSize; j++) {
+			x1 = x1 ^ array[j];
+		}
+		for (int j = 2; j <= totalSize + 1; j++) {
+			x2 = x2 ^ j;
+		}
+
+		return (x1 ^ x2);
 	}
 
 }
