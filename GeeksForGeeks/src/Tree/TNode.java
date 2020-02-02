@@ -9,5 +9,5 @@ public class TNode {
 	public TNode(int data) {
 		this.data = data;
 	}
-
+	
 }

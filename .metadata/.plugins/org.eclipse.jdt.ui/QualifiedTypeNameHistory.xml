@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Tree.Problems.SerializeAndDeserializeBinaryTree.Node"/>
-    <fullyQualifiedTypeName name="LinkedList.ReverseLinkedList.Node"/>
-    <fullyQualifiedTypeName name="LinkedList.DetectIfLinkedListHasLoop.Node"/>
-    <fullyQualifiedTypeName name="LinkedList.RotateLinkedList.Node"/>
-    <fullyQualifiedTypeName name="sun.jvm.hotspot.debugger.ReadResult"/>
-    <fullyQualifiedTypeName name="LinkedList.IntersectionPointInYShape.Node"/>
-    <fullyQualifiedTypeName name="LinkedList.MergeSortedLinkedList.Node"/>
-    <fullyQualifiedTypeName name="LinkedList.FlatteningLinkedList.Node"/>
     <fullyQualifiedTypeName name="LinkedList.AddingTwoNumbersInLinkedList.Node"/>
     <fullyQualifiedTypeName name="LinkedList.StackUsingLinkedList.StackNode"/>
     <fullyQualifiedTypeName name="java.lang.Readable"/>
@@ -55,9 +47,17 @@
     <fullyQualifiedTypeName name="LinkedList.RotateDoublyLinkedList.Node"/>
     <fullyQualifiedTypeName name="LinkedList.AddOneToLinkedList.Node"/>
     <fullyQualifiedTypeName name="com.sun.tools.jdeprscan.scan.Scan"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="LinkedList.Matrix2LinkedList.Node"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="Array.EmptyNote"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="Array.NoteExhausted"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.impl.dtd.models.DFAContentModel"/>
+    <fullyQualifiedTypeName name="LinkedList.DeleteOccurance.Node"/>
+    <fullyQualifiedTypeName name="Tree.Problems.SumTree.Node"/>
+    <fullyQualifiedTypeName name="java.math.BigInteger"/>
 </qualifiedTypeNameHistroy>
