@@ -3,7 +3,7 @@ package Number;
 public class StringToInteger_Atoi {
 
 	public static void main(String[] args) {
-		System.out.println(myAtoi("-2AA33AB"));
+		System.out.println(myAtoi("   -42"));
 	}
 
 	static int myAtoi(String input) {
