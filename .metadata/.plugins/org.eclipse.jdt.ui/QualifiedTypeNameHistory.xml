@@ -3,7 +3,6 @@
     <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="Tree.MakingBSTFromArray.Node"/>
     <fullyQualifiedTypeName name="sun.nio.cs.ext.ISCII91"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="Array.SearchInsert"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
@@ -13,4 +12,11 @@
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="Array.PrintDiagonal.Coordinate"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.Context.Key"/>
+    <fullyQualifiedTypeName name="Array.RepeatingAndMissing.Keys"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="Array.MissingElement"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="Tree.PreOrder2PostOrder_BST.BST_Node"/>
 </qualifiedTypeNameHistroy>
