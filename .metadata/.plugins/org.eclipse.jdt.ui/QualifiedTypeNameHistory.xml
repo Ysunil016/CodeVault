@@ -16,7 +16,8 @@
     <fullyQualifiedTypeName name="Array.RepeatingAndMissing.Keys"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="Array.MissingElement"/>
+    <fullyQualifiedTypeName name="Tree.PreOrder2PostOrder_BST.BST_Node"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="Tree.PreOrder2PostOrder_BST.BST_Node"/>
+    <fullyQualifiedTypeName name="LinkedList.IntersectionOfTwoSortedLinkedList.Node"/>
 </qualifiedTypeNameHistroy>
