@@ -5,7 +5,6 @@ INDEX VERSION 1.131+/Users/sunil016/Documents/Projects/CodingChallenge/.metadata
 2014541311.index
 414858275.index
 294289579.index
-3177648776.index
 4154239352.index
 3908822567.index
 3359260682.index

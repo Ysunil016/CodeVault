@@ -10,7 +10,6 @@
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="Array.PrintDiagonal.Coordinate"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.util.Context.Key"/>
     <fullyQualifiedTypeName name="Array.RepeatingAndMissing.Keys"/>
@@ -21,4 +20,11 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="LinkedList.IntersectionOfTwoSortedLinkedList.Node"/>
     <fullyQualifiedTypeName name="LinkedList.DeleteMiddleNode.Node"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="Tree.LevelOrder_LineByLine.Node"/>
+    <fullyQualifiedTypeName name="Tree.AllNodesWithNoSibling.Node"/>
+    <fullyQualifiedTypeName name="Tree.PathSumTree.Node"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
