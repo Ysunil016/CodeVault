@@ -19,10 +19,10 @@ public class IntersectionOfTwoSortedLinkedList {
 		Node head1 = new Node(10);
 		Node two = head1.next = new Node(20);
 		Node three = two.next = new Node(40);
-		Node four = three.next = new Node(50);
+		three.next = new Node(50);
 
 		Node head2 = new Node(15);
-		Node two2 = head2.next = new Node(40);
+		head2.next = new Node(40);
 
 		findIntersect(head1, head2);
 

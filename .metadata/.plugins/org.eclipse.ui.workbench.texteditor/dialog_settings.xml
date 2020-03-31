@@ -6,12 +6,15 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Node" key="selection"/>
+		<item value="left.right" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="left.right"/>
+			<item value="insertNodeInTree"/>
+			<item value="return 0"/>
 			<item value="TNode"/>
 			<item value="minStack"/>
 			<item value="StackNode"/>
@@ -24,11 +27,9 @@
 			<item value="int"/>
 			<item value="minHeapify"/>
 			<item value="100001"/>
-			<item value="this."/>
-			<item value="private"/>
-			<item value="geoLib"/>
 		</list>
 		<list key="replacehistory">
+			<item value="return false"/>
 			<item value="Node"/>
 			<item value="maxStack"/>
 			<item value="QueueNode"/>

@@ -1,4 +1,4 @@
-package com.Heap;
+package Heap;
 
 public class JesseAndCookie {
 
