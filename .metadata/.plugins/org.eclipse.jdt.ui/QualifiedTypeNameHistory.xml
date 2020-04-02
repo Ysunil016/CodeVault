@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="LinkedList.IntersectionOfTwoSortedLinkedList.Node"/>
-    <fullyQualifiedTypeName name="LinkedList.DeleteMiddleNode.Node"/>
-    <fullyQualifiedTypeName name="Tree.LevelOrder_LineByLine.Node"/>
-    <fullyQualifiedTypeName name="Tree.AllNodesWithNoSibling.Node"/>
-    <fullyQualifiedTypeName name="Tree.PathSumTree.Node"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
-    <fullyQualifiedTypeName name="com.sun.tools.javac.tree.TreeMaker"/>
-    <fullyQualifiedTypeName name="java.util.TreeMap"/>
     <fullyQualifiedTypeName name="Tree.FaceView.TopView_Without_HD.Node"/>
     <fullyQualifiedTypeName name="apple.laf.JRSUIConstants.Widget"/>
     <fullyQualifiedTypeName name="Tree.HuffmanCoding.Node"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.resources.compiler"/>
     <fullyQualifiedTypeName name="Tree.IsBinaryTree.Node"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="Tree.DeleteNodeFromBST.Node"/>
     <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
     <fullyQualifiedTypeName name="Tree.CountLeafNode.Node"/>
@@ -47,17 +37,27 @@
     <fullyQualifiedTypeName name="Working.ReverseALinkedList.Node"/>
     <fullyQualifiedTypeName name="Working.Merge2SortedLinkedList.Node"/>
     <fullyQualifiedTypeName name="java.util.Vector"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="Working.DeleteKeysFromLinkedList.Node"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.awt.image.RescaleOp"/>
+    <fullyQualifiedTypeName name="jdk.javadoc.internal.doclets.formats.html.markup.Head"/>
+    <fullyQualifiedTypeName name="Array.ArrayQuery.Node"/>
+    <fullyQualifiedTypeName name="com.sun.tools.jdeprscan.scan.Scan"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.SWAP"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="Graph.ComponentsInGraph.GraphValue"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
 </qualifiedTypeNameHistroy>

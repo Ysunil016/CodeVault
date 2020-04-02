@@ -43,6 +43,7 @@ public class ArrayQuery {
 			int startIndex = scan.nextInt();
 			int endIndex = scan.nextInt();
 			tHead = AlterList(tHead, startIndex, endIndex, (action == 1) ? true : false);
+
 		}
 
 		System.out.println(Math.abs(difference));
@@ -50,6 +51,10 @@ public class ArrayQuery {
 	}
 
 	static Node AlterList(Node head, int startIndex, int endIndex, boolean atStart) {
+		
+		if(atStart && startIndex==1)
+			return head;
+		
 		Node tHead = head;
 		int indexCounter = 0;
 		Node prevNode = null;
@@ -71,7 +76,7 @@ public class ArrayQuery {
 			tHead = tHead.next;
 		}
 
-		if (atStart) {
+		if (atStart && prevStartNode != null) {
 			prevStartNode.next = endNode.next;
 			endNode.next = head;
 			head = startNode;
