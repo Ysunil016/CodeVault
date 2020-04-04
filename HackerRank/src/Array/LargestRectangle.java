@@ -3,7 +3,7 @@ package Array;
 public class LargestRectangle {
 
 	public static void main(String[] args) {
-		int[] arr = { 3, 5, 3, 2, 4, 2, 6, 3, 3, 2, 5 };
+		int[] arr = { 11, 11, 10, 10, 10 };
 		System.out.println(getLargestRectangle(arr));
 	}
 
@@ -18,10 +18,18 @@ public class LargestRectangle {
 			int initHeight = arr[i];
 			for (int j = i + 1; j < arr.length; j++) {
 				if (initHeight <= arr[j])
-					areaOfRectangle += arr[i];
+					areaOfRectangle += initHeight;
 				else
 					break;
 			}
+			if (i > 0)
+				for (int k = i - 1; k >= 0; k--) {
+					if (initHeight <= arr[k])
+						areaOfRectangle += initHeight;
+					else
+						break;
+				}
+
 			// Checking for Every Height, is it more from our last stored??
 			result = Math.max(result, areaOfRectangle);
 		}
