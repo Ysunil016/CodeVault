@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Tree.FaceView.TopView_Without_HD.Node"/>
-    <fullyQualifiedTypeName name="apple.laf.JRSUIConstants.Widget"/>
-    <fullyQualifiedTypeName name="Tree.HuffmanCoding.Node"/>
-    <fullyQualifiedTypeName name="com.sun.tools.javac.resources.compiler"/>
     <fullyQualifiedTypeName name="Tree.IsBinaryTree.Node"/>
     <fullyQualifiedTypeName name="Tree.DeleteNodeFromBST.Node"/>
     <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
@@ -18,7 +14,6 @@
     <fullyQualifiedTypeName name="LinkedList.Reorder_List.Node"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="org.graalvm.compiler.nodes.EndNode"/>
-    <fullyQualifiedTypeName name="com.sun.tools.javac.code.Attribute.Array"/>
     <fullyQualifiedTypeName name="Graph.DetectCycleInDirectedGraph.Node"/>
     <fullyQualifiedTypeName name="DeleteNodeWithoutHeader.Node"/>
     <fullyQualifiedTypeName name="Ignite.CountLeavesInBinaryTree.Node"/>
@@ -47,17 +42,22 @@
     <fullyQualifiedTypeName name="java.awt.image.RescaleOp"/>
     <fullyQualifiedTypeName name="jdk.javadoc.internal.doclets.formats.html.markup.Head"/>
     <fullyQualifiedTypeName name="Array.ArrayQuery.Node"/>
-    <fullyQualifiedTypeName name="com.sun.tools.jdeprscan.scan.Scan"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.SWAP"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="Graph.ComponentsInGraph.GraphValue"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="Array.MergingCommunity.Node"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="com.sun.tools.jdeprscan.scan.Scan"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.code.Attribute.Array"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

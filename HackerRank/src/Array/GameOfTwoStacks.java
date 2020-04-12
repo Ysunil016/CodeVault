@@ -6,6 +6,8 @@ public class GameOfTwoStacks {
 
 	static Scanner scan = new Scanner(System.in);
 
+	//Still Left
+	
 	public static void main(String[] args) {
 
 		int tst = scan.nextInt();
