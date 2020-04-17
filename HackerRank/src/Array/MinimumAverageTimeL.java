@@ -1,7 +1,5 @@
 package Array;
 
-import java.util.List;
-
 public class MinimumAverageTimeL {
 
 	static class Node {
