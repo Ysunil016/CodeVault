@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="FAVORITES_DIALOG_SECTION">
-		<item value="350" key="DIALOG_WIDTH"/>
-		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
-		<item value="400" key="DIALOG_HEIGHT"/>
-		<item value="465" key="DIALOG_X_ORIGIN"/>
-		<item value="134" key="DIALOG_Y_ORIGIN"/>
+		<item key="DIALOG_WIDTH" value="350"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="400"/>
+		<item key="DIALOG_X_ORIGIN" value="465"/>
+		<item key="DIALOG_Y_ORIGIN" value="134"/>
 	</section>
 	<section name="org.eclipse.debug.ui.SELECT_FAVORITESS_DIALOG">
-		<item value="289" key="DIALOG_WIDTH"/>
-		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
-		<item value="325" key="DIALOG_HEIGHT"/>
+		<item key="DIALOG_WIDTH" value="289"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="325"/>
 	</section>
 	<section name="org.eclipse.debug.ui.SELECT_LAUNCH_CONFIGURATION_DIALOG">
-		<item value="253" key="DIALOG_WIDTH"/>
-		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
-		<item value="281" key="DIALOG_HEIGHT"/>
+		<item key="DIALOG_WIDTH" value="253"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="281"/>
 	</section>
 	<section name="org.eclipse.debug.ui.SCOPED_SAVE_SELECTION_DIALOG">
-		<item value="289" key="DIALOG_WIDTH"/>
-		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
-		<item value="350" key="DIALOG_HEIGHT"/>
+		<item key="DIALOG_WIDTH" value="289"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_HEIGHT" value="350"/>
 	</section>
 </section>
