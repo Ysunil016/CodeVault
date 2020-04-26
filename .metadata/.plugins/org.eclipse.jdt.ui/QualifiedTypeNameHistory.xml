@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="DeleteNodeWithoutHeader.Node"/>
-    <fullyQualifiedTypeName name="Ignite.CountLeavesInBinaryTree.Node"/>
-    <fullyQualifiedTypeName name="com.sun.tools.javac.util.RichDiagnosticFormatter.RichConfiguration"/>
     <fullyQualifiedTypeName name="Working.MirrorTree.Node"/>
     <fullyQualifiedTypeName name="java.lang.Short"/>
     <fullyQualifiedTypeName name="Working.LevelOrderTraversal.Node"/>
@@ -16,7 +13,6 @@
     <fullyQualifiedTypeName name="Working.ReverseALinkedList.Node"/>
     <fullyQualifiedTypeName name="Working.Merge2SortedLinkedList.Node"/>
     <fullyQualifiedTypeName name="java.util.Vector"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="Working.DeleteKeysFromLinkedList.Node"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
@@ -24,7 +20,6 @@
     <fullyQualifiedTypeName name="java.awt.image.RescaleOp"/>
     <fullyQualifiedTypeName name="Array.ArrayQuery.Node"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.SWAP"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="Graph.ComponentsInGraph.GraphValue"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="Array.MergingCommunity.Node"/>
@@ -32,15 +27,12 @@
     <fullyQualifiedTypeName name="com.sun.tools.jdeprscan.scan.Scan"/>
     <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
     <fullyQualifiedTypeName name="java.util.TreeSet"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="java.lang.Float"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="org.graalvm.compiler.graph.NodeStack"/>
     <fullyQualifiedTypeName name="Tree.PreTreeConstruct.Node"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.IINC"/>
     <fullyQualifiedTypeName name="LinkedList.InsertInSortedCircular.Node"/>
-    <fullyQualifiedTypeName name="com.sun.tools.javac.code.Attribute.Array"/>
     <fullyQualifiedTypeName name="Array.ArrayPair"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="Stack.SpecialStack"/>
@@ -50,14 +42,22 @@
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="jdk.javadoc.internal.doclets.formats.html.markup.Head"/>
     <fullyQualifiedTypeName name="hNode"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.TreeMap"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.net.Inet4Address"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.nodes.calc.IsNullNode"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.java.LargeLocalLiveness"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.code.Attribute.Array"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
 </qualifiedTypeNameHistroy>
