@@ -6,12 +6,14 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="10"/>
+		<item key="selection" value="&apos;0&apos;"/>
 		<item key="casesensitive" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="wrap" value="false"/>
 		<item key="wholeword" value="true"/>
 		<list key="findhistory">
+			<item value="0"/>
+			<item value="1"/>
 			<item value="10"/>
 			<item value="left.right"/>
 			<item value="insertNodeInTree"/>
@@ -25,10 +27,10 @@
 			<item value="prlongLinkedList"/>
 			<item value="print"/>
 			<item value="prlongln"/>
-			<item value="int"/>
-			<item value="minHeapify"/>
 		</list>
 		<list key="replacehistory">
+			<item value="&apos;0&apos;"/>
+			<item value="&apos;1&apos;"/>
 			<item value="return false"/>
 			<item value="Node"/>
 			<item value="maxStack"/>
@@ -46,7 +48,7 @@
 		<item key="DIALOG_WIDTH" value="294"/>
 		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
 		<item key="DIALOG_HEIGHT" value="408"/>
-		<item key="DIALOG_X_ORIGIN" value="804"/>
-		<item key="DIALOG_Y_ORIGIN" value="22"/>
+		<item key="DIALOG_X_ORIGIN" value="659"/>
+		<item key="DIALOG_Y_ORIGIN" value="206"/>
 	</section>
 </section>
