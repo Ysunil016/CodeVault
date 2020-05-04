@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Array.ArrayQuery.Node"/>
-    <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.SWAP"/>
     <fullyQualifiedTypeName name="Graph.ComponentsInGraph.GraphValue"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="Array.MergingCommunity.Node"/>
@@ -28,7 +26,6 @@
     <fullyQualifiedTypeName name="org.graalvm.compiler.java.LargeLocalLiveness"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.code.Attribute.Array"/>
-    <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="_30Days.WeekTwo.MinStackSolution"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
@@ -45,19 +42,22 @@
     <fullyQualifiedTypeName name="_30Days.WeekThree.BinaryMatrix"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="apple.laf.JRSUIUtils.Tree"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction"/>
     <fullyQualifiedTypeName name="_30Days.WeekFive.BinaryTreeMaxPathSum.TreeNode"/>
     <fullyQualifiedTypeName name="_30Days.WeekFive.isValidSequence.TreeNode"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="April.WeekFour.FirstUnique"/>
     <fullyQualifiedTypeName name="java.util.Deque"/>
     <fullyQualifiedTypeName name="java.util.Queue"/>
     <fullyQualifiedTypeName name="java.util.concurrent.LinkedBlockingDeque"/>
     <fullyQualifiedTypeName name="April.WeekFour.LRUCache"/>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.resources.compiler"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="sun.util.logging.resources.logging"/>
+    <fullyQualifiedTypeName name="java.lang.UnknownError"/>
 </qualifiedTypeNameHistroy>
