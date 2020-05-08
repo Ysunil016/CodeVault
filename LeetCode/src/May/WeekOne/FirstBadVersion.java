@@ -1,4 +1,4 @@
-package May.WorkOne;
+package May.WeekOne;
 
 public class FirstBadVersion {
 

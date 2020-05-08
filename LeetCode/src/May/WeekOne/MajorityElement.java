@@ -1,4 +1,4 @@
-package May.WorkOne;
+package May.WeekOne;
 
 import java.util.Arrays;
 import java.util.HashMap;
