@@ -1,7 +1,5 @@
 package May.WeekTwo;
 
-import java.math.BigInteger;
-
 public class PerfectSquare {
 
 	public static void main(String[] args) {
