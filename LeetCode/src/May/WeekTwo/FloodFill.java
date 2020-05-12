@@ -29,8 +29,6 @@ public class FloodFill {
 		track(image,sr,sc+1,newColor,oldColor);
 		track(image,sr+1,sc,newColor,oldColor);
 		track(image,sr,sc-1,newColor,oldColor);
-		track(image,sr-1,sc,newColor,oldColor);
-				
-		
+		track(image,sr-1,sc,newColor,oldColor);		
 	}
 }
