@@ -7,6 +7,7 @@ public class SingleElementInSortedArray {
 		System.out.println(singleNonDuplicate(arr));
 	}
 
+	// Optamized to O(logn)
 	public static int singleNonDuplicate(int[] nums) {
 		return keepTrack(nums, 0, nums.length - 1);
 	}
