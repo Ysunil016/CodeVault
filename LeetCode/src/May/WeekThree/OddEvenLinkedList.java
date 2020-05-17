@@ -25,11 +25,11 @@ public class OddEvenLinkedList {
 
 	}
 
-	static void jumbleList(Node head) {
+	static Node jumbleList(Node head) {
 		if (head == null)
-			return;
+			return head;
 		if (head.next == null)
-			return;
+			return head;
 		Node currentNode = head;
 		Node odd = new Node(-1);
 		Node even = new Node(-1);
@@ -50,7 +50,7 @@ public class OddEvenLinkedList {
 		}
 
 		oddC.next = even.next;
-		displayNode(odd.next);
+		return (odd.next);
 	}
 
 	static void displayNode(Node root) {
