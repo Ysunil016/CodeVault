@@ -48,10 +48,10 @@ public class CountSquareSubmatrices {
 
 	public static void main(String[] args) {
 		int[][] arr = { { 1, 0, 1 }, { 1, 1, 0 }, { 1, 1, 0 } };
-		manipulateMaxSquareMatrix(arr);
+		System.out.println(countSquares(arr));
 	}
 
-	static int manipulateMaxSquareMatrix(int[][] arr) {
+	public static int countSquares(int[][] arr) {
 		int count = 0;
 		for (int i = 0; i < arr[0].length; i++) {
 			count += arr[0][i];
@@ -61,7 +61,6 @@ public class CountSquareSubmatrices {
 			count += arr[i][0];
 		}
 
-		
 		for (int i = 1; i < arr.length; i++) {
 			for (int j = 1; j < arr[0].length; j++) {
 				if (arr[i][j] != 0) {
@@ -69,15 +68,6 @@ public class CountSquareSubmatrices {
 				}
 				count += arr[i][j];
 			}
-		}
-
-		System.out.println(count);
-
-		for (int i = 0; i < arr.length; i++) {
-			for (int j = 0; j < arr[0].length; j++) {
-				System.out.print(arr[i][j] + " ");
-			}
-			System.out.println();
 		}
 		return count;
 	}
