@@ -50,7 +50,6 @@ public class CountSquareSubmatrices {
 		int[][] arr = { { 1, 0, 1 }, { 1, 1, 0 }, { 1, 1, 0 } };
 		System.out.println(countSquares(arr));
 	}
-
 	public static int countSquares(int[][] arr) {
 		int count = 0;
 		for (int i = 0; i < arr[0].length; i++) {
