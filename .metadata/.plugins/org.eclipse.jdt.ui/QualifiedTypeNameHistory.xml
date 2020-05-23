@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="LinkedList.InsertInSortedCircular.Node"/>
-    <fullyQualifiedTypeName name="Array.ArrayPair"/>
     <fullyQualifiedTypeName name="Stack.SpecialStack"/>
     <fullyQualifiedTypeName name="Tree.TopViewTree.Node"/>
     <fullyQualifiedTypeName name="jdk.javadoc.internal.doclets.formats.html.markup.Head"/>
@@ -12,11 +10,9 @@
     <fullyQualifiedTypeName name="java.net.Inet4Address"/>
     <fullyQualifiedTypeName name="org.graalvm.compiler.nodes.calc.IsNullNode"/>
     <fullyQualifiedTypeName name="org.graalvm.compiler.java.LargeLocalLiveness"/>
-    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.code.Attribute.Array"/>
     <fullyQualifiedTypeName name="_30Days.WeekTwo.MinStackSolution"/>
     <fullyQualifiedTypeName name="_30Days.WeekTwo.DiameterOfTree.TreeNode"/>
-    <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
     <fullyQualifiedTypeName name="_30Days.WeekThree.BST_Preorder.TreeNode"/>
     <fullyQualifiedTypeName name="java.awt.List"/>
@@ -29,14 +25,11 @@
     <fullyQualifiedTypeName name="April.WeekFour.FirstUnique"/>
     <fullyQualifiedTypeName name="java.util.Deque"/>
     <fullyQualifiedTypeName name="April.WeekFour.LRUCache"/>
-    <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.resources.compiler"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="sun.util.logging.resources.logging"/>
     <fullyQualifiedTypeName name="java.lang.UnknownError"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Queue"/>
     <fullyQualifiedTypeName name="java.util.concurrent.LinkedBlockingDeque"/>
@@ -45,19 +38,26 @@
     <fullyQualifiedTypeName name="Info"/>
     <fullyQualifiedTypeName name="java.math.BigInteger"/>
     <fullyQualifiedTypeName name="May.WeekTwo.FindJudgeInTown"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.lang.Character"/>
-    <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="May.WeekTwo.Tries"/>
     <fullyQualifiedTypeName name="May.WeekTwo.Tries.Trie"/>
     <fullyQualifiedTypeName name="May.WeekThree.OddEvenLinkedList.Node"/>
     <fullyQualifiedTypeName name="Problems.Solution"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="May.WeekThree.StockSpanner"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="May.WeekThree.Node"/>
     <fullyQualifiedTypeName name="May.WeekThree.SmallestInBST.TreeNode"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 </qualifiedTypeNameHistroy>
