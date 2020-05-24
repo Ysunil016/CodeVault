@@ -13,10 +13,8 @@ public class IntervalListIntersections {
 
 	static int[][] findInterPoint(int[][] x, int[][] y) {
 		List<int[]> list = new ArrayList<int[]>();
-
 		int CounterA = 0;
 		int CounterB = 0;
-
 		while (CounterA < x.length && CounterB < y.length) {
 			int[] tR = { Math.max(x[CounterA][0], y[CounterB][0]), Math.min(x[CounterA][1], y[CounterB][1]) };
 			if (tR[0] <= tR[1]) {
