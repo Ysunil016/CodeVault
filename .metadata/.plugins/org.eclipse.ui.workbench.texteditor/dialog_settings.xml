@@ -12,6 +12,7 @@
 		<item key="wrap" value="false"/>
 		<item key="wholeword" value="true"/>
 		<list key="findhistory">
+			<item value="]"/>
 			<item value="*     "/>
 			<item value="Node"/>
 			<item value="Character.getNumericValue"/>
@@ -26,7 +27,6 @@
 			<item value="TNode"/>
 			<item value="minStack"/>
 			<item value="StackNode"/>
-			<item value="System.out"/>
 		</list>
 		<list key="replacehistory">
 			<item value=""/>
