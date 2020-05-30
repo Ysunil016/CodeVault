@@ -6,12 +6,13 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value=""/>
+		<item key="selection" value="public void"/>
 		<item key="casesensitive" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="wrap" value="false"/>
 		<item key="wholeword" value="true"/>
 		<list key="findhistory">
+			<item value="public void"/>
 			<item value="]"/>
 			<item value="*     "/>
 			<item value="Node"/>
@@ -26,9 +27,9 @@
 			<item value="return 0"/>
 			<item value="TNode"/>
 			<item value="minStack"/>
-			<item value="StackNode"/>
 		</list>
 		<list key="replacehistory">
+			<item value="public Node"/>
 			<item value=""/>
 			<item value="TreeNode"/>
 			<item value="&apos;0&apos;"/>
@@ -43,7 +44,6 @@
 			<item value="print"/>
 			<item value="long"/>
 			<item value="static private"/>
-			<item value="geoConversion"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
