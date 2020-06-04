@@ -24,6 +24,11 @@ public class GroupAnagram {
 			String sortedString = new String(characters);
 			if (!hashStore.containsKey(sortedString)) {
 				ArrayList<String> a = new ArrayList<String>() {
+								/**
+					 * 
+					 */
+					private static final long serialVersionUID = 1L;
+
 								{
 						add(current);
 					}

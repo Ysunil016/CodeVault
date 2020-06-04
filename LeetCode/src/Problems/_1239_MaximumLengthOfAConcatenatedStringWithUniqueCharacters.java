@@ -8,6 +8,11 @@ public class _1239_MaximumLengthOfAConcatenatedStringWithUniqueCharacters {
 	public static void main(String[] args) {
 		Solution sol = new Solution();
 		List<String> arr = new ArrayList<String>() {
+			/**
+			 * 
+			 */
+			private static final long serialVersionUID = 1L;
+
 			{
 				add("cha");
 				add("r");
