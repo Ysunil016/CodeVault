@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.graalvm.compiler.java.LargeLocalLiveness"/>
     <fullyQualifiedTypeName name="_30Days.WeekTwo.MinStackSolution"/>
     <fullyQualifiedTypeName name="_30Days.WeekTwo.DiameterOfTree.TreeNode"/>
     <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
@@ -58,6 +57,7 @@
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="June.WeekOne.RandomPickByWeight.Solution"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
 </qualifiedTypeNameHistroy>
