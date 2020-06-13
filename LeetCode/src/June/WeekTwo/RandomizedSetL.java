@@ -31,10 +31,6 @@ class RandomizedSet {
 		array = new ArrayList<Integer>();
 	}
 
-	/**
-	 * Inserts a value to the set. Returns true if the set did not already contain
-	 * the specified element.
-	 */
 	public boolean insert(int val) {
 		if (hash.containsKey(val)) {
 			return false;
@@ -43,11 +39,6 @@ class RandomizedSet {
 		array.add(val);
 		return true;
 	}
-
-	/**
-	 * Removes a value from the set. Returns true if the set contained the specified
-	 * element.
-	 */
 	public boolean remove(int val) {
 		if (hash.containsKey(val)) {
 			int last_element = array.get(array.size() - 1);
@@ -60,8 +51,6 @@ class RandomizedSet {
 		}
 		return false;
 	}
-
-	/** Get a random element from the set. */
 	public int getRandom() {
 		int Size = array.size();
 		int Prob = (int) (Math.random() * (Size));
@@ -69,8 +58,3 @@ class RandomizedSet {
 	}
 }
 
-/**
- * Your RandomizedSet object will be instantiated and called as such:
- * RandomizedSet obj = new RandomizedSet(); boolean param_1 = obj.insert(val);
- * boolean param_2 = obj.remove(val); int param_3 = obj.getRandom();
- */
