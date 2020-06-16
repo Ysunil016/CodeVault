@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="apple.laf.JRSUIUtils.Tree"/>
-    <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction"/>
-    <fullyQualifiedTypeName name="_30Days.WeekFive.BinaryTreeMaxPathSum.TreeNode"/>
     <fullyQualifiedTypeName name="_30Days.WeekFive.isValidSequence.TreeNode"/>
     <fullyQualifiedTypeName name="April.WeekFour.FirstUnique"/>
     <fullyQualifiedTypeName name="java.util.Deque"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="April.WeekFive.isValidSequence"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.net.InetAddress"/>
+    <fullyQualifiedTypeName name="java.net.Inet6Address"/>
+    <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
 </qualifiedTypeNameHistroy>
