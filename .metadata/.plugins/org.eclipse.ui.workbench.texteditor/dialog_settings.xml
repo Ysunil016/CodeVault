@@ -6,14 +6,18 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="}"/>
+		<item key="selection" value="&apos;O&apos;"/>
 		<item key="casesensitive" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="wrap" value="false"/>
 		<item key="wholeword" value="true"/>
 		<list key="findhistory">
-			<item value="]"/>
+			<item value="&apos;X&apos;"/>
+			<item value="&quot;X&quot;"/>
+			<item value="&quot;O&quot;"/>
+			<item value="&quot;"/>
 			<item value="["/>
+			<item value="]"/>
 			<item value=" *     "/>
 			<item value="public void"/>
 			<item value="*     "/>
@@ -23,14 +27,13 @@
 			<item value="1"/>
 			<item value="public class TreeNode {&#x0A; *     int val;&#x0A; *     TreeNode left;&#x0A; *     TreeNode right;&#x0A; *     TreeNode() {}&#x0A; *     TreeNode(int val) { this.val = val; }&#x0A; *     TreeNode(int val, TreeNode left, TreeNode right) {&#x0A; *         this.val = val;&#x0A; *         this.left = left;&#x0A; *         this.right = right;&#x0A; *     }&#x0A; * }"/>
 			<item value="&#x09;&#x09; *     "/>
-			<item value="10"/>
-			<item value="left.right"/>
-			<item value="insertNodeInTree"/>
-			<item value="return 0"/>
 		</list>
 		<list key="replacehistory">
-			<item value="}"/>
+			<item value="&apos;O&apos;"/>
+			<item value="&apos;X&apos;"/>
+			<item value="&apos;"/>
 			<item value="{"/>
+			<item value="}"/>
 			<item value=""/>
 			<item value="public Node"/>
 			<item value="TreeNode"/>
@@ -41,9 +44,6 @@
 			<item value="Node"/>
 			<item value="maxStack"/>
 			<item value="QueueNode"/>
-			<item value="printLinkedList"/>
-			<item value="println"/>
-			<item value="print"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
