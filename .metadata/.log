@@ -7199,3 +7199,2083 @@ org.eclipse.core.runtime.CoreException: No file system is defined for scheme: or
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 !SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-19 19:43:06.758
 !MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-19 19:46:07.244
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-19 19:46:07.245
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-19 19:49:26.076
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.KsfmggLX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-19 19:49:26.077
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.KsfmggLX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-19 19:49:26.081
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-19 19:49:26.089
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.KsfmggLX => OK
+!SESSION 2020-06-20 14:03:33.476 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/sunil016/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/sunil016/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2020-06-20 14:03:59.676
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-06-20 14:03:59.676
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.core.net 1 0 2020-06-20 14:04:02.689
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-06-20 14:04:07.226
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-06-20 14:04:07.227
+!MESSAGE A conflict occurred for ALT+C:
+Binding(ALT+C,
+	ParameterizedCommand(Command(org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaeditor.copycolumn,Copy,
+		,
+		Category(org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaedtor.10x,ASA 9.x table schema editor,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@49ed3b76,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+C,
+	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.rcp.commands.newComment,New Comment,
+		,
+		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c33d539,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-06-20 14:04:07.227
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@527b989a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2c3f47ba,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-06-20 14:04:07.227
+!MESSAGE A conflict occurred for ALT+COMMAND+S:
+Binding(ALT+COMMAND+S,
+	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.commands.SaveImageAs,Save Image &As...,
+		,
+		Category(org.eclipse.jubula.client.ui.commands,Functional Test,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@ca9ffc0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+S,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.source.quickMenu,Show Source Quick Menu,
+		Shows the source quick menu,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e316971,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-06-20 14:04:07.227
+!MESSAGE A conflict occurred for COMMAND+U:
+Binding(COMMAND+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@808f65,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+U,
+	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.commands.ShowWhereUsedCTDS,Show where used CTDS,
+		Shows all places where this CTDS data cell is referenced through a function call.,
+		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@56540a58,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-06-20 14:04:07.227
+!MESSAGE A conflict occurred for COMMAND+G:
+Binding(COMMAND+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.declarations.in.workspace,Declaration in Workspace,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@15c0a8ad,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+G,
+	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.commands.JumpToCTDS,Jump to Central Test Data Set,
+		Jumps to the Central Test Data Set referenced by a ?getCentralTestDataSetValue function.,
+		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@10bf2185,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:17.611
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:17.613
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@69db41bc[org.springframework.tooling.boot.ls:1.18.0.202005250744(id=1570)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:17.619
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:17.704
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.233
+!MESSAGE Boot LS startup time from start to initialized: 9586ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.546
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lnwsVwEkisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.550
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.552
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.555
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.560
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.562
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.562
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.567
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lnwsVwEk => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.573
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.574
+!MESSAGE buffering callback sts4.classpath.lnwsVwEk LeetCode false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.576
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.580
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.581
+!MESSAGE buffering callback sts4.classpath.lnwsVwEk AMAZON_ false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.582
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.583
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.584
+!MESSAGE buffering callback sts4.classpath.lnwsVwEk DailyChallenges false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.585
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.586
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.587
+!MESSAGE buffering callback sts4.classpath.lnwsVwEk DataStructure false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.587
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.588
+!MESSAGE classpath=7 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.589
+!MESSAGE buffering callback sts4.classpath.lnwsVwEk GeeksForGeeks false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.590
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.591
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.591
+!MESSAGE buffering callback sts4.classpath.lnwsVwEk HackerEarth false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.592
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.593
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.593
+!MESSAGE buffering callback sts4.classpath.lnwsVwEk HackerRank false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.594
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.595
+!MESSAGE classpath=7 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.596
+!MESSAGE buffering callback sts4.classpath.lnwsVwEk Kotlin false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.596
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.597
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.598
+!MESSAGE buffering callback sts4.classpath.lnwsVwEk SAMSUNG_ false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.599
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.600
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.601
+!MESSAGE buffering callback sts4.classpath.lnwsVwEk Swing_Pro false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.602
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.603
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.604
+!MESSAGE buffering callback sts4.classpath.lnwsVwEk Tricky false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.605
+!MESSAGE executing callback sts4.classpath.lnwsVwEk 11 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:04:27.689
+!MESSAGE executing callback sts4.classpath.lnwsVwEk SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:10.521
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lnwsVwEk
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:10.522
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.lnwsVwEk
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:10.523
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:10.523
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lnwsVwEk => OK
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:12:11.741
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:12:11.743
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui 2 2 2020-06-20 14:12:17.298
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:31.554
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:31.555
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@69db41bc[org.springframework.tooling.boot.ls:1.18.0.202005250744(id=1570)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:31.555
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:32.616
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:32.617
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@69db41bc[org.springframework.tooling.boot.ls:1.18.0.202005250744(id=1570)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:32.618
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:12:34.294
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:12:34.294
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:36.928
+!MESSAGE Boot LS startup time from start to initialized: 4309ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.009
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PTTkFcboisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.009
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.010
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.011
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.012
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.013
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.014
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.015
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.016
+!MESSAGE buffering callback sts4.classpath.PTTkFcbo LeetCode false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.016
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PTTkFcbo => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.017
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.018
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.018
+!MESSAGE buffering callback sts4.classpath.PTTkFcbo AMAZON_ false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.019
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.020
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.021
+!MESSAGE buffering callback sts4.classpath.PTTkFcbo DailyChallenges false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.021
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.024
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.024
+!MESSAGE buffering callback sts4.classpath.PTTkFcbo DataStructure false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.025
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.026
+!MESSAGE classpath=7 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.026
+!MESSAGE buffering callback sts4.classpath.PTTkFcbo GeeksForGeeks false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.027
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.028
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.031
+!MESSAGE buffering callback sts4.classpath.PTTkFcbo HackerEarth false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.032
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.032
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.033
+!MESSAGE buffering callback sts4.classpath.PTTkFcbo HackerRank false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.034
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.034
+!MESSAGE classpath=7 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.035
+!MESSAGE buffering callback sts4.classpath.PTTkFcbo Kotlin false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.035
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.036
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.037
+!MESSAGE buffering callback sts4.classpath.PTTkFcbo SAMSUNG_ false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.037
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.038
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.039
+!MESSAGE buffering callback sts4.classpath.PTTkFcbo Swing_Pro false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.040
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.041
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.041
+!MESSAGE buffering callback sts4.classpath.PTTkFcbo Tricky false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.042
+!MESSAGE executing callback sts4.classpath.PTTkFcbo 11 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-20 14:12:37.109
+!MESSAGE executing callback sts4.classpath.PTTkFcbo SUCCESS [done]
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:13:30.047
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:13:30.048
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:13:35.033
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:13:35.033
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:13:42.129
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:13:42.129
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:14:10.624
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:14:10.625
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:14:31.108
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:14:31.109
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:14:36.659
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:14:36.659
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:15:33.891
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:15:33.891
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:15:37.970
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:15:37.970
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.jface 2 0 2020-06-20 14:15:38.805
+!MESSAGE Ignored reentrant call while viewer is busy. This is only logged once per viewer instance, but similar calls will still be ignored.
+!STACK 0
+java.lang.RuntimeException
+	at org.eclipse.jface.viewers.ColumnViewer.checkBusy(ColumnViewer.java:764)
+	at org.eclipse.jface.viewers.ColumnViewer.update(ColumnViewer.java:543)
+	at org.eclipse.ui.navigator.CommonViewer.update(CommonViewer.java:512)
+	at org.eclipse.jface.viewers.StructuredViewer.update(StructuredViewer.java:1976)
+	at org.eclipse.ui.internal.navigator.resources.nested.NestedProjectsLabelProvider.lambda$2(NestedProjectsLabelProvider.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:15:44.179
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:15:44.180
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:20:28.023
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:20:28.023
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:20:35.798
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:20:35.799
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:30:33.075
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:30:33.075
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:30:50.475
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:30:50.475
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:30:51.189
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:30:51.189
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:30:57.292
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:30:57.293
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:31:16.118
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:31:16.118
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:31:31.727
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:31:31.727
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:31:57.763
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:31:57.763
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:32:12.335
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:32:12.336
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:33:02.161
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:33:02.161
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:33:06.695
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:33:06.696
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:33:11.255
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:33:11.257
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:33:15.074
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:33:15.074
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:33:18.858
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:33:18.858
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:34:07.148
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:34:07.149
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:34:16.180
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:34:16.181
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:34:27.460
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:34:27.460
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:34:33.638
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:34:33.638
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:34:57.431
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:34:57.433
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:35:09.457
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:35:09.457
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:35:18.056
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:35:18.056
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:36:03.423
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:36:03.423
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:44:47.558
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:44:47.558
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:45:13.390
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:45:13.391
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:45:20.242
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:45:20.242
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:45:37.770
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:45:37.770
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:46:02.392
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:46:02.392
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:46:03.604
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:46:03.604
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:46:09.816
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:46:09.817
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:46:37.023
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:46:37.023
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:46:42.015
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:46:42.015
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:46:56.501
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:46:56.501
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:47:07.375
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:47:07.376
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:47:19.358
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:47:19.358
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:47:49.055
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:47:49.055
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:48:07.825
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:48:07.825
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:48:21.923
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:48:21.923
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:48:50.966
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:48:50.966
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:48:53.868
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:48:53.869
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.lsp4e 4 0 2020-06-20 14:48:58.007
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:105)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.lambda$0(LSJavaCompletionProposalComputer.java:55)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:245)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:49:03.942
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:49:03.943
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:49:07.202
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:49:07.202
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:49:43.663
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:49:43.663
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:52:01.342
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:52:01.342
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:52:06.876
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:52:06.876
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:55:39.632
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:55:39.632
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:56:34.926
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:56:34.926
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:56:42.919
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:56:42.919
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:56:47.499
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:56:47.499
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:58:22.973
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:58:22.973
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:58:27.419
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:58:27.420
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:59:22.298
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:59:22.298
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:59:25.531
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:59:25.531
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:59:31.046
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:59:31.046
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 14:59:31.739
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 14:59:31.739
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 15:02:09.147
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 15:02:09.148
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 15:02:19.630
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 15:02:19.631
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-06-20 15:02:21.890
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:223)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:190)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-06-20 15:02:21.890
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
