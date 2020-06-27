@@ -3,13 +3,13 @@ package Numbers;
 public class Partition {
 
 	public static void main(String[] args) {
-		System.out.println(minPartValue(11));
-		System.out.println(minPartValue(31));
-		System.out.println(minPartValue(45));
-		System.out.println(minPartValue(46));
-		System.out.println(minPartValue(78));
-		System.out.println(minPartValue(88));
-		System.out.println(minPartValue(98));
+		System.out.println(minPartValue(11)); // 5
+		System.out.println(minPartValue(31)); // 1
+		System.out.println(minPartValue(45)); // 3
+		System.out.println(minPartValue(46)); // 2
+		System.out.println(minPartValue(78)); // 6
+		System.out.println(minPartValue(88)); // 4
+		System.out.println(minPartValue(98)); // 2
 	}
 
 	private static int minPartValue(int num) {
