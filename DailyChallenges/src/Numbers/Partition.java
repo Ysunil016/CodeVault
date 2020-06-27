@@ -3,27 +3,40 @@ package Numbers;
 public class Partition {
 
 	public static void main(String[] args) {
-		System.out.println(minPartValue(11)); // 5
-		System.out.println(minPartValue(31)); // 1
-		System.out.println(minPartValue(45)); // 3
-		System.out.println(minPartValue(46)); // 2
-		System.out.println(minPartValue(78)); // 6
-		System.out.println(minPartValue(88)); // 4
-		System.out.println(minPartValue(98)); // 2
+
+		int r[] = minPartValue(11, new int[2]); // 11 Input
+		System.out.println(r[0] + " and " + r[1]); // Output 8 and 3
+
+		int rO[] = minPartValue(44, new int[2]); // 44 Input
+		System.out.println(rO[0] + " and " + rO[1]); // Output 24 and 20
+
+		int r1[] = minPartValue(69, new int[2]); // 69 Input
+		System.out.println(r1[0] + " and " + r1[1]); // Output 36 and 33
+
 	}
 
-	private static int minPartValue(int num) {
+	private static int[] minPartValue(int num, int[] out) {
 		int fResult = num;
 		for (int i = num; i > 0; i--) {
 			int x = num - i;
 			if (x % 2 == 0 && i % 3 == 0) {
-				fResult = Math.min(fResult, Math.abs(x - i));
+				int diff = Math.abs(x - i);
+				if (diff < fResult) {
+					out[0] = i;
+					out[1] = x;
+					fResult = diff;
+				}
 			}
 			if (x % 3 == 0 && i % 2 == 0) {
-				fResult = Math.min(fResult, Math.abs(x - i));
+				int diff = Math.abs(x - i);
+				if (diff < fResult) {
+					out[0] = i;
+					out[1] = x;
+					fResult = diff;
+				}
 			}
 		}
-		return fResult;
+		return out;
 	}
 
 }
