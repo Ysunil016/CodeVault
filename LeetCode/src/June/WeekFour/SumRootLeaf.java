@@ -12,8 +12,7 @@ public class SumRootLeaf {
 		}
 	}
 
-	private static int Result;
-
+	
 	public static void main(String[] args) {
 		TreeNode root = new TreeNode(1);
 		root.left = new TreeNode(2);
@@ -21,6 +20,8 @@ public class SumRootLeaf {
 
 		System.out.println(sumNumbers(root));
 	}
+
+	private static int Result;
 
 	private static int sumNumbers(TreeNode root) {
 		Result = 0;
