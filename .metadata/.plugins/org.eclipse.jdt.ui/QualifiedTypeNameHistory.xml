@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="NodeN"/>
-    <fullyQualifiedTypeName name="May.WorkOne.CousinsInBinaryTree.Node"/>
-    <fullyQualifiedTypeName name="Info"/>
-    <fullyQualifiedTypeName name="java.math.BigInteger"/>
-    <fullyQualifiedTypeName name="May.WeekTwo.FindJudgeInTown"/>
     <fullyQualifiedTypeName name="May.WeekTwo.Tries"/>
     <fullyQualifiedTypeName name="May.WeekTwo.Tries.Trie"/>
     <fullyQualifiedTypeName name="May.WeekThree.OddEvenLinkedList.Node"/>
@@ -25,7 +20,6 @@
     <fullyQualifiedTypeName name="June.WeekOne.InvertBinaryTree.Node"/>
     <fullyQualifiedTypeName name="June.WeekOne.DeleteNodeLinkedList.ListNode"/>
     <fullyQualifiedTypeName name="java.util.TreeMap"/>
-    <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="June.WeekOne.RandomPickByWeight.Solution"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="June.WeekOne.CoinChange2"/>
@@ -33,17 +27,12 @@
     <fullyQualifiedTypeName name="June.WeekTwo.RandomizedSet"/>
     <fullyQualifiedTypeName name="java.util.function.Consumer"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.code.Attribute.Array"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="April.WeekFive.isValidSequence"/>
     <fullyQualifiedTypeName name="java.net.InetAddress"/>
     <fullyQualifiedTypeName name="java.net.Inet6Address"/>
     <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
     <fullyQualifiedTypeName name="com.sun.net.httpserver.Authenticator.Result"/>
-    <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="sun.jvm.hotspot.gc.cms.LinearAllocBlock"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.awt.List"/>
@@ -56,8 +45,19 @@
     <fullyQualifiedTypeName name="June.WeekFour.SumRootLeaf.Node"/>
     <fullyQualifiedTypeName name="jdk.nashorn.internal.runtime.regexp.joni.constants.Traverse"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.util.JCDiagnostic.Fragment"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="sun.security.provider.certpath.AdjacencyList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.TreeSet"/>
+    <fullyQualifiedTypeName name="java.util.SortedSet"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="com.sun.tools.classfile.Annotation.Primitive_element_value"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
 </qualifiedTypeNameHistroy>
