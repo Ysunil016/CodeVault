@@ -53,11 +53,11 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="apple.laf.JRSUIUtils.Tree"/>
     <fullyQualifiedTypeName name="June.WeekFour.CountCompleteTreeNodes.TreeNode"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="June.WeekFour.SumRootLeaf.Node"/>
     <fullyQualifiedTypeName name="jdk.nashorn.internal.runtime.regexp.joni.constants.Traverse"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.util.JCDiagnostic.Fragment"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
 </qualifiedTypeNameHistroy>
