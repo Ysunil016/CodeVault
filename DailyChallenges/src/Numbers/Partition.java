@@ -9,9 +9,9 @@ public class Partition {
 //
 //		int rO[] = minPartValue(44, new int[2]); // 44 Input
 //		System.out.println(rO[0] + " and " + rO[1]); // Output 24 and 20
-//
-//		int r1[] = minPartValue(69, new int[2]); // 69 Input
-//		System.out.println(r1[0] + " and " + r1[1]); // Output 36 and 33
+
+		int r1[] = minPartValue(69, new int[2]); // 69 Input
+		System.out.println(r1[0] + " and " + r1[1]); // Output 36 and 33
 
 		int r2[] = minPartValueNaieve(11, new int[2]); // 69 Input
 		System.out.println(r2[0] + " and " + r2[1]); // Output 36 and 33
