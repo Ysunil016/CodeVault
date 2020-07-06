@@ -19,7 +19,6 @@ public class HammingDistance {
 			Y = Y >> 1;
 		}
 		return r;
-
 	}
 
 }
