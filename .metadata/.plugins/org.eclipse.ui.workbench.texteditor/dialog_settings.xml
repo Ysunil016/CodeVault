@@ -6,12 +6,13 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="&apos;O&apos;"/>
+		<item key="selection" value=""/>
 		<item key="casesensitive" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="wrap" value="false"/>
 		<item key="wholeword" value="true"/>
 		<list key="findhistory">
+			<item value="*     "/>
 			<item value="&apos;X&apos;"/>
 			<item value="&quot;X&quot;"/>
 			<item value="&quot;O&quot;"/>
@@ -20,7 +21,6 @@
 			<item value="]"/>
 			<item value=" *     "/>
 			<item value="public void"/>
-			<item value="*     "/>
 			<item value="Node"/>
 			<item value="Character.getNumericValue"/>
 			<item value="0"/>
@@ -29,12 +29,12 @@
 			<item value="&#x09;&#x09; *     "/>
 		</list>
 		<list key="replacehistory">
+			<item value=""/>
 			<item value="&apos;O&apos;"/>
 			<item value="&apos;X&apos;"/>
 			<item value="&apos;"/>
 			<item value="{"/>
 			<item value="}"/>
-			<item value=""/>
 			<item value="public Node"/>
 			<item value="TreeNode"/>
 			<item value="&apos;0&apos;"/>
