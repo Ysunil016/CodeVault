@@ -2,12 +2,12 @@ package Tree;
 
 public class SwapNodes {
 
-	static class Node {
+	static class TreeNode {
 		int data;
-		Node left = null;
-		Node right = null;
+		TreeNode left = null;
+		TreeNode right = null;
 
-		Node(int data) {
+		TreeNode(int data) {
 			this.data = data;
 		}
 	}
@@ -17,6 +17,7 @@ public class SwapNodes {
 				{ -1, -1 }, { -1, -1 }, { -1, -1 } };
 		int[] queries = { 2, 4 };
 		int[][] result = swapNodes(indexes, queries);
+		System.out.println();
 		for (int i = 0; i < result.length; i++) {
 			for (int j = 0; j < result[i].length; j++) {
 				System.out.print(result[i][j] + " ");
@@ -26,36 +27,71 @@ public class SwapNodes {
 	}
 
 	static int[][] swapNodes(int[][] indexes, int[] queries) {
-		// First of All Making a Tree Out of Indices
-		Node root = new Node(1);
-		getTree(root, -1, indexes, 0);
-		preOrder(root);
-		return new int[0][0];
+		TreeNode root = new TreeNode(1);
+		makingTree(root, indexes, 1);
+
+		for (int i = 0; i < queries.length; i++) {
+			swapNodeAtDepth(root, 1, queries[i]);
+		}
+		inOrder(root);
+		int[][] result = new int[indexes.length][2];
+		makeValue(root, result);
+		return result;
 	}
 
-	static Node getTree(Node root, int indexP, int[][] indexes, int index) {
-		if (index == -1 || root == null)
-			return new Node(indexP);
-
-		System.out.println(indexes[index][0] + " and " + indexes[index][1]);
-
-		if (indexes[index][0] != -1) {
-			System.out.println(indexes[index][0]);
-			root.left = getTree(root.left, indexes[index][0], indexes, indexes[index][0] - 1);
-		}
-		if (indexes[index][1] != -1) {
-			System.out.println(indexes[index][1]);
-			root.right = getTree(root.right, indexes[index][1], indexes, indexes[index][1] - 1);
-		}
-		return root;
-	}
-
-	static void preOrder(Node root) {
+	private static void makeValue(TreeNode root, int[][] res) {
 		if (root == null)
 			return;
-		preOrder(root.left);
+
+		if (root.left != null) {
+			res[root.data - 1][0] = root.left.data;
+		} else {
+			res[root.data - 1][0] = -1;
+
+		}
+		if (root.right != null) {
+			res[root.data - 1][1] = root.right.data;
+		} else {
+			res[root.data - 1][1] = -1;
+		}
+		makeValue(root.left, res);
+		makeValue(root.right, res);
+	}
+
+	static private void swapNodeAtDepth(TreeNode root, int currentDepth, int depth) {
+		if (root == null) {
+			return;
+		}
+		if (currentDepth == depth) {
+			TreeNode holdNode = root.left;
+			root.left = root.right;
+			root.right = holdNode;
+			return;
+		}
+		swapNodeAtDepth(root.left, currentDepth + 1, depth);
+		swapNodeAtDepth(root.right, currentDepth + 1, depth);
+	}
+
+	static private void makingTree(TreeNode root, int[][] indexes, int index) {
+		if (root == null) {
+			return;
+		}
+		if (indexes[index - 1][0] != -1) {
+			root.left = new TreeNode(indexes[index - 1][0]);
+			makingTree(root.left, indexes, indexes[index - 1][0]);
+		}
+		if (indexes[index - 1][1] != -1) {
+			root.right = new TreeNode(indexes[index - 1][1]);
+			makingTree(root.right, indexes, indexes[index - 1][1]);
+		}
+	}
+
+	static void inOrder(TreeNode root) {
+		if (root == null)
+			return;
+		inOrder(root.left);
 		System.out.print("->" + root.data + " ");
-		preOrder(root.right);
+		inOrder(root.right);
 	}
 
 }
