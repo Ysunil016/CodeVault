@@ -14,6 +14,7 @@ public class ReverseWord {
 		String[] list = s.split(" ");
 		StringBuilder strBuilder = new StringBuilder();
 		for (int i = list.length - 1; i > 0; i--) {
+			System.out.println(list[i].length());
 			if (list[i].length() != 0) {
 				strBuilder.append(list[i].trim());
 				strBuilder.append(" ");
