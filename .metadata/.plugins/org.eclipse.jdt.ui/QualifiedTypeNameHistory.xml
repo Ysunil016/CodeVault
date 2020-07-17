@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="June.WeekOne.InvertBinaryTree.Node"/>
     <fullyQualifiedTypeName name="June.WeekOne.DeleteNodeLinkedList.ListNode"/>
     <fullyQualifiedTypeName name="June.WeekOne.RandomPickByWeight.Solution"/>
-    <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="June.WeekOne.CoinChange2"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="June.WeekTwo.RandomizedSet"/>
@@ -25,24 +23,18 @@
     <fullyQualifiedTypeName name="sun.security.provider.certpath.AdjacencyList"/>
     <fullyQualifiedTypeName name="java.util.SortedSet"/>
     <fullyQualifiedTypeName name="com.sun.tools.classfile.Annotation.Primitive_element_value"/>
-    <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="June.WeekFive.WordSearchII"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="June.WeekFive.WordSearchII.Trie"/>
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="July.BottomTreeTraversal.Node"/>
-    <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.util.TreeSet"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.resources.compiler"/>
     <fullyQualifiedTypeName name="July.UglyNumber2"/>
-    <fullyQualifiedTypeName name="java.util.Queue"/>
     <fullyQualifiedTypeName name="java.util.concurrent.LinkedBlockingDeque"/>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.Deque"/>
     <fullyQualifiedTypeName name="com.sun.tools.doclint.Entity"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="jdk.jfr.Percentage"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
@@ -53,11 +45,19 @@
     <fullyQualifiedTypeName name="July.FlattenDoublyLinkedList.Node"/>
     <fullyQualifiedTypeName name="July.ArrangingCoins"/>
     <fullyQualifiedTypeName name="July.Subsets"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="July.SameTree.TreeNode"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.tree.TreeMaker"/>
     <fullyQualifiedTypeName name="java.util.TreeMap"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="jdk.internal.jshell.tool.resources.l10n"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
 </qualifiedTypeNameHistroy>

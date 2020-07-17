@@ -15,26 +15,21 @@ public class TopKFrequent {
 
 	public static int[] topKFrequent(int[] nums, int k) {
 		HashMap<Integer, Integer> hashMap = new HashMap<>();
-
 		for (int number : nums) {
 			hashMap.put(number, hashMap.getOrDefault(number, 0) + 1);
 		}
-
 		Queue<Integer> queue = new PriorityQueue<>((a, b) -> hashMap.get(a) - hashMap.get(b));
-
 		for (int n : hashMap.keySet()) {
 			queue.add(n);
 			if (queue.size() > k) {
 				queue.poll();
 			}
 		}
-
 		int[] result = new int[k];
 		int i = 0;
 		for (int n : queue) {
 			result[i++] = n;
 		}
-
 		return result;
 	}
 
