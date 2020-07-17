@@ -11,7 +11,6 @@ public class ViralAdvertising {
 		int result = 0;
 		for (int i = 1; i <= n; i++) {
 			result += (peopleShare / 2);
-			System.out.println(result);
 			peopleShare = Math.floor(peopleShare / 2) * 3;
 		}
 		return result;
