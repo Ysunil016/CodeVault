@@ -13,6 +13,7 @@ public class CourseScheduleII {
 	}
 
 	public static int[] findOrder(int numCourses, int[][] prerequisites) {
+		@SuppressWarnings("unchecked")
 		LinkedList<Integer>[] adj = new LinkedList[numCourses];
 		for (int i = 0; i < numCourses; i++) {
 			adj[i] = new LinkedList<Integer>();
