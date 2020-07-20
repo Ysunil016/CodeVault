@@ -35,32 +35,24 @@ public class MergeLinkedListAlternative {
 	}
 
 	private static ListNode mergeTwoList(ListNode l1, ListNode l2) {
-		ListNode fR = l1;
 
-		int counter = 0;
-		ListNode PrevNode = null;
-		ListNode L1Node = null;
+		ListNode One_Current = l1;
+		ListNode Two_Current = l2;
 
-		while (l2 != null && l1 != null) {
-			if (counter % 2 == 0) {
-				L1Node = l1;
-				PrevNode = l1;
-				l1 = l1.next;
-			} else {
-				PrevNode.next = l2;
-				PrevNode = l2;
-				l2 = l2.next;
-				PrevNode.next = l1;
-			}
-			counter++;
+		ListNode One_Next, Two_Next;
+
+		while (One_Current != null && Two_Current != null) {
+			One_Next = One_Current.next;
+			Two_Next = Two_Current.next;
+
+			One_Current.next = Two_Current;
+			Two_Current.next = One_Next;
+
+			One_Current = One_Next;
+			Two_Current = Two_Next;
+
 		}
-		if (l2 != null) {
-			L1Node.next = l2;
-			L1Node = L1Node.next;
-			L1Node.next = null;
-			l2 = l2.next;
-		}
-		return fR;
+		return l1;
 	}
 
 }
