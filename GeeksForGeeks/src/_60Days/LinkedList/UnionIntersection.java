@@ -15,16 +15,15 @@ public class UnionIntersection {
 	}
 
 	public static void main(String[] args) {
-		ListNode headOne = new ListNode(1);
-		headOne.next = new ListNode(5);
-		headOne.next.next = new ListNode(7);
-		headOne.next.next.next = new ListNode(14);
+		ListNode headOne = new ListNode(10);
+		headOne.next = new ListNode(15);
+		headOne.next.next = new ListNode(4);
+		headOne.next.next.next = new ListNode(20);
 
-		ListNode headTwo = new ListNode(1);
-		headTwo.next = new ListNode(12);
-		headTwo.next.next = new ListNode(5);
-		headTwo.next.next.next = new ListNode(4);
-		headTwo.next.next.next.next = new ListNode(7);
+		ListNode headTwo = new ListNode(8);
+		headTwo.next = new ListNode(4);
+		headTwo.next.next = new ListNode(2);
+		headTwo.next.next.next = new ListNode(10);
 
 		System.out.println("Union");
 		display(findUnion(headOne, headTwo));
