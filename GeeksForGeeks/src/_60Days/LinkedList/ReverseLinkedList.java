@@ -11,11 +11,8 @@ public class ReverseLinkedList {
 		}
 	}
 
-	static ListNode head;
-	static ListNode headStart;
-
 	public static void main(String[] args) {
-		head = new ListNode(1);
+		ListNode head = new ListNode(1);
 		head.next = new ListNode(2);
 		head.next.next = new ListNode(3);
 		head.next.next.next = new ListNode(4);
