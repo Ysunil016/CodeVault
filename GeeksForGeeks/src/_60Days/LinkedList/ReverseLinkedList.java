@@ -1,4 +1,4 @@
-package July;
+package _60Days.LinkedList;
 
 public class ReverseLinkedList {
 
