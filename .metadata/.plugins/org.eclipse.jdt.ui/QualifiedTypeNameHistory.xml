@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.function.Consumer"/>
-    <fullyQualifiedTypeName name="com.sun.tools.javac.code.Attribute.Array"/>
-    <fullyQualifiedTypeName name="java.net.InetAddress"/>
-    <fullyQualifiedTypeName name="java.net.Inet6Address"/>
-    <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
-    <fullyQualifiedTypeName name="com.sun.net.httpserver.Authenticator.Result"/>
-    <fullyQualifiedTypeName name="sun.jvm.hotspot.gc.cms.LinearAllocBlock"/>
     <fullyQualifiedTypeName name="java.awt.List"/>
     <fullyQualifiedTypeName name="apple.laf.JRSUIUtils.Tree"/>
     <fullyQualifiedTypeName name="June.WeekFour.CountCompleteTreeNodes.TreeNode"/>
@@ -60,4 +53,11 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="javax.naming.NameAlreadyBoundException"/>
+    <fullyQualifiedTypeName name="_60Days.LinkedList.SortedInsert.LLNode"/>
+    <fullyQualifiedTypeName name="_60Days.LinkedList.DeleteNode.LLNode"/>
+    <fullyQualifiedTypeName name="_60Days.LinkedList.CompareString.LLNode"/>
+    <fullyQualifiedTypeName name="java.lang.LayerInstantiationException"/>
+    <fullyQualifiedTypeName name="July.RemoveElement"/>
+    <fullyQualifiedTypeName name="July.RemoveElement.ListNode"/>
 </qualifiedTypeNameHistroy>
