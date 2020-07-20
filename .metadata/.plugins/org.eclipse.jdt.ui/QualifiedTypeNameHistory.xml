@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.awt.List"/>
-    <fullyQualifiedTypeName name="apple.laf.JRSUIUtils.Tree"/>
-    <fullyQualifiedTypeName name="June.WeekFour.CountCompleteTreeNodes.TreeNode"/>
-    <fullyQualifiedTypeName name="June.WeekFour.SumRootLeaf.Node"/>
     <fullyQualifiedTypeName name="jdk.nashorn.internal.runtime.regexp.joni.constants.Traverse"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.util.JCDiagnostic.Fragment"/>
     <fullyQualifiedTypeName name="sun.security.provider.certpath.AdjacencyList"/>
@@ -44,7 +40,6 @@
     <fullyQualifiedTypeName name="sun.nio.cs.ext.ISCII91"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="April.WeekFive.isValidSequence"/>
-    <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.beans.Visibility"/>
@@ -60,4 +55,9 @@
     <fullyQualifiedTypeName name="java.lang.LayerInstantiationException"/>
     <fullyQualifiedTypeName name="July.RemoveElement"/>
     <fullyQualifiedTypeName name="July.RemoveElement.ListNode"/>
+    <fullyQualifiedTypeName name="_60Days.LinkedList.CompareString.ListNode"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="_60Days.LinkedList.AddTwoNumbers.ListNode"/>
+    <fullyQualifiedTypeName name="java.lang.LinkageError"/>
+    <fullyQualifiedTypeName name="_60Days.LinkedList.MergeLinkedListAlternative.ListNode"/>
 </qualifiedTypeNameHistroy>
