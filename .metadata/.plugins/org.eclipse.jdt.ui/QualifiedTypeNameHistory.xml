@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="jdk.jfr.Percentage"/>
-    <fullyQualifiedTypeName name="java.sql.Array"/>
-    <fullyQualifiedTypeName name="July.WidthOfBinaryTree.TreeNode"/>
     <fullyQualifiedTypeName name="July.FlattenDoublyLinkedList.Node"/>
     <fullyQualifiedTypeName name="July.Subsets"/>
     <fullyQualifiedTypeName name="July.SameTree.TreeNode"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.PreAction"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="_60Days.LinkedList.SumZeroLinkedList.ListNode"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
