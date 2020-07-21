@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="jdk.jfr.Percentage"/>
     <fullyQualifiedTypeName name="java.sql.Array"/>
     <fullyQualifiedTypeName name="July.WidthOfBinaryTree.TreeNode"/>
@@ -56,8 +55,9 @@
     <fullyQualifiedTypeName name="_60Days.LinkedList.NthNodeFromEnd.ListNode"/>
     <fullyQualifiedTypeName name="_60Days.LinkedList.Add1LinkedList.ListNode"/>
     <fullyQualifiedTypeName name="_60Days.LinkedList.PalindromeCheck.ListNode"/>
-    <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="_60Days.LinkedList.RotateLinkedList.ListNode"/>
     <fullyQualifiedTypeName name="_60Days.LinkedList.RetainNDeleteM.ListNode"/>
     <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.PreAction"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="_60Days.LinkedList.SumZeroLinkedList.ListNode"/>
 </qualifiedTypeNameHistroy>
