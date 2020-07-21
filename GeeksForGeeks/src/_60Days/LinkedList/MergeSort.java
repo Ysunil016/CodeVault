@@ -36,12 +36,9 @@ public class MergeSort {
 		}
 		ListNode middle = getMiddle(head);
 		ListNode next2Middle = middle.next;
-
 		middle.next = null;
-
 		ListNode left = mergeSort(head);
 		ListNode right = mergeSort(next2Middle);
-
 		ListNode x = sortedList(left, right);
 		return x;
 	}

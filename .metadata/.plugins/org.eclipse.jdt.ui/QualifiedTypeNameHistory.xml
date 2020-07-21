@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="jdk.nashorn.internal.runtime.regexp.joni.constants.Traverse"/>
-    <fullyQualifiedTypeName name="com.sun.tools.javac.util.JCDiagnostic.Fragment"/>
-    <fullyQualifiedTypeName name="sun.security.provider.certpath.AdjacencyList"/>
-    <fullyQualifiedTypeName name="java.util.SortedSet"/>
-    <fullyQualifiedTypeName name="com.sun.tools.classfile.Annotation.Primitive_element_value"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="June.WeekFive.WordSearchII"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="June.WeekFive.WordSearchII.Trie"/>
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="July.BottomTreeTraversal.Node"/>
@@ -19,7 +11,6 @@
     <fullyQualifiedTypeName name="com.sun.tools.doclint.Entity"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="jdk.jfr.Percentage"/>
-    <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.sql.Array"/>
     <fullyQualifiedTypeName name="July.WidthOfBinaryTree.TreeNode"/>
     <fullyQualifiedTypeName name="July.FlattenDoublyLinkedList.Node"/>
@@ -38,7 +29,6 @@
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
     <fullyQualifiedTypeName name="sun.nio.cs.ext.ISCII91"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="April.WeekFive.isValidSequence"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
@@ -58,6 +48,16 @@
     <fullyQualifiedTypeName name="_60Days.LinkedList.CompareString.ListNode"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="_60Days.LinkedList.AddTwoNumbers.ListNode"/>
-    <fullyQualifiedTypeName name="java.lang.LinkageError"/>
     <fullyQualifiedTypeName name="_60Days.LinkedList.MergeLinkedListAlternative.ListNode"/>
+    <fullyQualifiedTypeName name="java.lang.LinkageError"/>
+    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.PreAction"/>
+    <fullyQualifiedTypeName name="sun.awt.www.content.image.png"/>
+    <fullyQualifiedTypeName name="July.ReverseLinkedList.ListNode"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="_60Days.LinkedList.UnionIntersection.ListNode"/>
+    <fullyQualifiedTypeName name="_60Days.LinkedList.DetectAndRemoveLoop.ListNode"/>
+    <fullyQualifiedTypeName name="_60Days.LinkedList.PickRandomNode.ListNode"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="jdk.jshell.Diag"/>
+    <fullyQualifiedTypeName name="_60Days.LinkedList.MergeSort.ListNode"/>
 </qualifiedTypeNameHistroy>
