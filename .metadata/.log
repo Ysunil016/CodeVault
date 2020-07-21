@@ -6232,3 +6232,156 @@ Binding(COMMAND+G,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:03:18.522
 !MESSAGE executing callback sts4.classpath.IWQXXSRn SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:34:25.151
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.IWQXXSRn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:34:25.152
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.IWQXXSRn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:34:25.155
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:34:25.161
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.IWQXXSRn => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:39.951
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:39.952
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@7c0b71b5[org.springframework.tooling.boot.ls:1.19.0.202006181152(id=2135)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:39.952
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.812
+!MESSAGE Boot LS startup time from start to initialized: 2858ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.875
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pDFGIPQaisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.876
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.877
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.877
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.878
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.879
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.879
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pDFGIPQa => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.880
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.881
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.882
+!MESSAGE buffering callback sts4.classpath.pDFGIPQa GeeksForGeeks false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.883
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.884
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.884
+!MESSAGE buffering callback sts4.classpath.pDFGIPQa AMAZON_ false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.885
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.886
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.887
+!MESSAGE buffering callback sts4.classpath.pDFGIPQa DailyChallenges false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.888
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.889
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.890
+!MESSAGE buffering callback sts4.classpath.pDFGIPQa DataStructure false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.891
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.891
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.892
+!MESSAGE buffering callback sts4.classpath.pDFGIPQa HackerEarth false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.892
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.893
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.894
+!MESSAGE buffering callback sts4.classpath.pDFGIPQa HackerRank false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.894
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.895
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.895
+!MESSAGE buffering callback sts4.classpath.pDFGIPQa LeetCode false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.895
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.896
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.897
+!MESSAGE buffering callback sts4.classpath.pDFGIPQa SAMSUNG_ false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.897
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.898
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.899
+!MESSAGE buffering callback sts4.classpath.pDFGIPQa Swing_Pro false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.900
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.901
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.901
+!MESSAGE buffering callback sts4.classpath.pDFGIPQa Tricky false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.902
+!MESSAGE executing callback sts4.classpath.pDFGIPQa 10 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-21 10:37:42.956
+!MESSAGE executing callback sts4.classpath.pDFGIPQa SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2020-07-21 10:40:26.369
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
