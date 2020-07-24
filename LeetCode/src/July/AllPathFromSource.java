@@ -24,7 +24,6 @@ public class AllPathFromSource {
 
 	private static void dfsSearch(int[][] graph, int currentIndex, int finalIndex, List<Integer> currentList) {
 		if (currentIndex == finalIndex) {
-			@SuppressWarnings("unchecked")
 			ArrayList<Integer> foundPath = (ArrayList<Integer>) ((ArrayList<Integer>) currentList).clone();
 			resultList.add(foundPath);
 			return;
