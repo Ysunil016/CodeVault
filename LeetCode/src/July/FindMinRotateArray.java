@@ -15,7 +15,6 @@ public class FindMinRotateArray {
 	}
 
 	static int bst(int[] rArr, int start, int end) {
-
 		while (start < end) {
 			int middleElement = start + (end - start) / 2;
 			if (rArr[middleElement] == rArr[end]) {
