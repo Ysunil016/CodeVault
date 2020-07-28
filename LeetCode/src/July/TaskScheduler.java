@@ -16,7 +16,7 @@ public class TaskScheduler {
 			task_frequncy[x - 'A']++;
 		}
 		Arrays.sort(task_frequncy);
-		int maxFreq = task_frequncy[25];
+		int maxFreq = task_frequncy[25] - 1;
 		int idleSlots = maxFreq * n;
 
 		for (int i = 24; i >= 0; i--) {
