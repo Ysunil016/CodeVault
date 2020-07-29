@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="July.RemoveElement"/>
     <fullyQualifiedTypeName name="July.RemoveElement.ListNode"/>
     <fullyQualifiedTypeName name="_60Days.LinkedList.CompareString.ListNode"/>
     <fullyQualifiedTypeName name="_60Days.LinkedList.AddTwoNumbers.ListNode"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="_60Days.Tree.RootLeafSum.TreeNode"/>
 </qualifiedTypeNameHistroy>
