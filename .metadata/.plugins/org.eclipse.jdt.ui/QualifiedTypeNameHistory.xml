@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="July.RemoveElement.ListNode"/>
-    <fullyQualifiedTypeName name="_60Days.LinkedList.CompareString.ListNode"/>
     <fullyQualifiedTypeName name="_60Days.LinkedList.AddTwoNumbers.ListNode"/>
     <fullyQualifiedTypeName name="_60Days.LinkedList.MergeLinkedListAlternative.ListNode"/>
     <fullyQualifiedTypeName name="java.lang.LinkageError"/>
@@ -48,7 +46,6 @@
     <fullyQualifiedTypeName name="com.sun.tools.javac.tree.TreeMaker"/>
     <fullyQualifiedTypeName name="July.BinaryTree_In_Post.Index"/>
     <fullyQualifiedTypeName name="July.BinaryTree_In_Post.TreeNode"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="_60Days.Tree.RootLeafSum.TreeNode"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.impl.xpath.regex.REUtil"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.RETURN"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
 </qualifiedTypeNameHistroy>
