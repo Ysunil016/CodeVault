@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="_60Days.LinkedList.PickRandomNode.ListNode"/>
     <fullyQualifiedTypeName name="_60Days.LinkedList.MergeSort.ListNode"/>
     <fullyQualifiedTypeName name="_60Days.LinkedList.FindMiddleElement.ListNode"/>
     <fullyQualifiedTypeName name="_60Days.LinkedList.FlattenLinkedList.ListNode"/>
@@ -48,7 +47,6 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="July.WidthOfBinaryTree"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="_60Days.Tree.FindMinimumDepthOfTree.Node"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="_60Days.Tree.RootLeafSum.TreeNode"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="apple.laf.JRSUIUtils.Tree"/>
     <fullyQualifiedTypeName name="_60Days.Tree.TopViewBinaryTree.TreeNode"/>
     <fullyQualifiedTypeName name="Node"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="July.ClimbingStairs"/>
 </qualifiedTypeNameHistroy>
