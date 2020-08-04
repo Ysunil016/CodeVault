@@ -13,7 +13,6 @@ public class isPalindrome {
 		while (start < end) {
 			if (Character.isLetterOrDigit(s.charAt(start))) {
 				if (Character.isLetterOrDigit(s.charAt(end))) {
-					System.out.println(s.charAt(start) + " and " + s.charAt(end));
 					if (s.charAt(start) != s.charAt(end)) {
 						return false;
 					} else {
