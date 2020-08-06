@@ -1,10 +1,12 @@
 package August;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class RemoveDuplicatesFromArray {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		System.out.println(findDuplicates(new int[] { 1, 2, 3, 1, 3, 6, 4 }));
 	}
 
 	public static List<Integer> findDuplicates(int[] nums) {

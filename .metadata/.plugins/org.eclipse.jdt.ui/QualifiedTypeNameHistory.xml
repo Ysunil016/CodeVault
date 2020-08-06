@@ -31,7 +31,6 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="java.util.Deque"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="July.WidthOfBinaryTree"/>
     <fullyQualifiedTypeName name="_60Days.Tree.FindMinimumDepthOfTree.Node"/>
     <fullyQualifiedTypeName name="_60Days.Tree.RootLeafSum.TreeNode"/>
@@ -51,7 +50,6 @@
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="August.isPalindrome"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="LinkedList.StackUsingLinkedList.Stack.Node"/>
     <fullyQualifiedTypeName name="LinkedList.StackUsingLinkedList.Stack"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
