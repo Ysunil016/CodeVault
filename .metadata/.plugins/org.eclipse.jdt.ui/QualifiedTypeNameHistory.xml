@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="_60Days.LinkedList.Add1LinkedList.ListNode"/>
     <fullyQualifiedTypeName name="_60Days.LinkedList.PalindromeCheck.ListNode"/>
     <fullyQualifiedTypeName name="_60Days.LinkedList.RotateLinkedList.ListNode"/>
     <fullyQualifiedTypeName name="_60Days.LinkedList.RetainNDeleteM.ListNode"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="LinkedList.InsertionInSortedLinkedList.Node"/>
 </qualifiedTypeNameHistroy>
