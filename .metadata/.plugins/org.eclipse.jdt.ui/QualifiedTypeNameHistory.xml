@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="July.ZigZagLevelOrder.TreeNode"/>
     <fullyQualifiedTypeName name="July.SingleNumberIII"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.util.ArrayUtils"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="QNode"/>
+    <fullyQualifiedTypeName name="August.PathIII.TreeNode"/>
 </qualifiedTypeNameHistroy>
