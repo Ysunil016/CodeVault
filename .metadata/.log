@@ -5985,3 +5985,938 @@ org.eclipse.core.runtime.CoreException: No file system is defined for scheme: or
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 !SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-08-11 19:45:50.497
 !MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-08-11 19:53:28.027
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:222)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:189)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-08-11 19:53:28.027
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-08-11 19:53:28.237
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:222)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:189)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-08-11 19:53:28.237
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-11 19:53:30.794
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.RcxErzbL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-11 19:53:30.795
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.RcxErzbL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-11 19:53:30.802
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-11 19:53:30.803
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.RcxErzbL => OK
+!SESSION 2020-08-12 06:00:10.919 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/sunil016/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/sunil016/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2020-08-12 06:06:01.107
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-08-12 06:06:01.107
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.core.net 1 0 2020-08-12 06:06:02.218
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-08-12 06:06:04.343
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-08-12 06:06:04.343
+!MESSAGE A conflict occurred for ALT+C:
+Binding(ALT+C,
+	ParameterizedCommand(Command(org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaeditor.copycolumn,Copy,
+		,
+		Category(org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaedtor.10x,ASA 9.x table schema editor,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@465eb466,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+C,
+	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.rcp.commands.newComment,New Comment,
+		,
+		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5fc44b4b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-08-12 06:06:04.343
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c8e4810,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e3062f0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-08-12 06:06:04.343
+!MESSAGE A conflict occurred for ALT+COMMAND+S:
+Binding(ALT+COMMAND+S,
+	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.commands.SaveImageAs,Save Image &As...,
+		,
+		Category(org.eclipse.jubula.client.ui.commands,Functional Test,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4dfe14d4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+S,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.source.quickMenu,Show Source Quick Menu,
+		Shows the source quick menu,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@309d9033,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-08-12 06:06:04.343
+!MESSAGE A conflict occurred for COMMAND+U:
+Binding(COMMAND+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5ebd80f8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+U,
+	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.commands.ShowWhereUsedCTDS,Show where used CTDS,
+		Shows all places where this CTDS data cell is referenced through a function call.,
+		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@23674e3d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-08-12 06:06:04.343
+!MESSAGE A conflict occurred for COMMAND+G:
+Binding(COMMAND+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.declarations.in.workspace,Declaration in Workspace,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e82b631,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+G,
+	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.commands.JumpToCTDS,Jump to Central Test Data Set,
+		Jumps to the Central Test Data Set referenced by a ?getCentralTestDataSetValue function.,
+		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@42c2a1da,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:14.855
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:14.857
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6be4686b[org.springframework.tooling.boot.ls:1.20.0.202007271426(id=2533)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:14.862
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:14.903
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.440
+!MESSAGE Boot LS startup time from start to initialized: 8560ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.782
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.trmaEqvvisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.785
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.790
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.795
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.805
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.807
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.810
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.811
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.811
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.trmaEqvv => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.813
+!MESSAGE buffering callback sts4.classpath.trmaEqvv LeetCode false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.814
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.815
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.816
+!MESSAGE buffering callback sts4.classpath.trmaEqvv AMAZON_ false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.818
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.819
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.820
+!MESSAGE buffering callback sts4.classpath.trmaEqvv CodeForce false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.820
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.821
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.822
+!MESSAGE buffering callback sts4.classpath.trmaEqvv DailyChallenges false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.822
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.823
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.824
+!MESSAGE buffering callback sts4.classpath.trmaEqvv DataStructure false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.824
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.825
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.826
+!MESSAGE buffering callback sts4.classpath.trmaEqvv DataStructuresAndAlgorithms-NarasimhaKarumanchi false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.826
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.827
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.827
+!MESSAGE buffering callback sts4.classpath.trmaEqvv GeeksForGeeks false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.828
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.829
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.829
+!MESSAGE buffering callback sts4.classpath.trmaEqvv HackerEarth false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.830
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.831
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.831
+!MESSAGE buffering callback sts4.classpath.trmaEqvv HackerRank false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.832
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.833
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.834
+!MESSAGE buffering callback sts4.classpath.trmaEqvv SAMSUNG_ false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.834
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.835
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.835
+!MESSAGE buffering callback sts4.classpath.trmaEqvv Swing_Pro false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.836
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.837
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.837
+!MESSAGE buffering callback sts4.classpath.trmaEqvv Tricky false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.838
+!MESSAGE executing callback sts4.classpath.trmaEqvv 12 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:06:23.891
+!MESSAGE executing callback sts4.classpath.trmaEqvv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:17:37.318
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.trmaEqvv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:17:37.319
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.trmaEqvv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:17:37.320
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 06:17:37.320
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.trmaEqvv => OK
+
+!ENTRY org.eclipse.ui 2 2 2020-08-12 06:17:48.852
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2020-08-12 13:18:42.173 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/sunil016/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -data /Users/sunil016/Documents/GitHub/Java/CodingChallenge -product org.eclipse.epp.package.jee.product -keyring /Users/sunil016/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2020-08-12 13:18:53.845
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-08-12 13:18:53.845
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.core.net 1 0 2020-08-12 13:18:54.929
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-08-12 13:18:56.949
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-08-12 13:18:56.949
+!MESSAGE A conflict occurred for ALT+C:
+Binding(ALT+C,
+	ParameterizedCommand(Command(org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaeditor.copycolumn,Copy,
+		,
+		Category(org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaedtor.10x,ASA 9.x table schema editor,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4ee9daf5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+C,
+	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.rcp.commands.newComment,New Comment,
+		,
+		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@291fba9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-08-12 13:18:56.949
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@29ff84fa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@156b31d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-08-12 13:18:56.949
+!MESSAGE A conflict occurred for ALT+COMMAND+S:
+Binding(ALT+COMMAND+S,
+	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.commands.SaveImageAs,Save Image &As...,
+		,
+		Category(org.eclipse.jubula.client.ui.commands,Functional Test,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@168ffb0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+S,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.source.quickMenu,Show Source Quick Menu,
+		Shows the source quick menu,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@ca90087,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-08-12 13:18:56.949
+!MESSAGE A conflict occurred for COMMAND+U:
+Binding(COMMAND+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@59a49dbc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+U,
+	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.commands.ShowWhereUsedCTDS,Show where used CTDS,
+		Shows all places where this CTDS data cell is referenced through a function call.,
+		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6dde03ce,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-08-12 13:18:56.949
+!MESSAGE A conflict occurred for COMMAND+G:
+Binding(COMMAND+G,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.declarations.in.workspace,Declaration in Workspace,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2b0df4ba,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+G,
+	ParameterizedCommand(Command(org.eclipse.jubula.client.ui.commands.JumpToCTDS,Jump to Central Test Data Set,
+		Jumps to the Central Test Data Set referenced by a ?getCentralTestDataSetValue function.,
+		Category(org.eclipse.jubula.client.ui.rcp.commands,Functional Test,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6f647464,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-08-12 13:20:07.009
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:222)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:189)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-08-12 13:20:07.011
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-08-12 13:20:07.023
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:222)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:189)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-08-12 13:20:07.024
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui 2 2 2020-08-12 13:20:10.331
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:31.804
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:31.805
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3ccb4221[org.springframework.tooling.boot.ls:1.20.0.202007271426(id=2533)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:31.808
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:31.850
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:33.575
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:33.576
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3ccb4221[org.springframework.tooling.boot.ls:1.20.0.202007271426(id=2533)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:33.577
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-08-12 13:20:36.750
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:222)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:189)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-08-12 13:20:36.751
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-08-12 13:20:37.109
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:222)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:189)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-08-12 13:20:37.110
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-08-12 13:20:38.690
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:222)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:189)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-08-12 13:20:38.690
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-08-12 13:20:38.897
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:222)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:189)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-08-12 13:20:38.898
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.606
+!MESSAGE Boot LS startup time from start to initialized: 8028ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.743
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SgCzklTzisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.746
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.747
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.751
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.754
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.756
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.758
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.760
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.760
+!MESSAGE buffering callback sts4.classpath.SgCzklTz LeetCode false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.761
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.762
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.763
+!MESSAGE buffering callback sts4.classpath.SgCzklTz AMAZON_ false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.763
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.764
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.765
+!MESSAGE buffering callback sts4.classpath.SgCzklTz CodeForce false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.765
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.766
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SgCzklTz => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.766
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.767
+!MESSAGE buffering callback sts4.classpath.SgCzklTz DailyChallenges false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.767
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.768
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.768
+!MESSAGE buffering callback sts4.classpath.SgCzklTz DataStructure false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.769
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.769
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.770
+!MESSAGE buffering callback sts4.classpath.SgCzklTz DataStructuresAndAlgorithms-NarasimhaKarumanchi false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.770
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.771
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.772
+!MESSAGE buffering callback sts4.classpath.SgCzklTz GeeksForGeeks false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.772
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.773
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.773
+!MESSAGE buffering callback sts4.classpath.SgCzklTz HackerEarth false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.774
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.774
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.775
+!MESSAGE buffering callback sts4.classpath.SgCzklTz HackerRank false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.775
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.776
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.776
+!MESSAGE buffering callback sts4.classpath.SgCzklTz SAMSUNG_ false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.777
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.778
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.778
+!MESSAGE buffering callback sts4.classpath.SgCzklTz Swing_Pro false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.778
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.779
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.780
+!MESSAGE buffering callback sts4.classpath.SgCzklTz Tricky false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.780
+!MESSAGE executing callback sts4.classpath.SgCzklTz 12 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-12 13:20:41.831
+!MESSAGE executing callback sts4.classpath.SgCzklTz SUCCESS [done]
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-08-12 13:20:42.726
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:222)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:189)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-08-12 13:20:42.726
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-08-12 13:20:43.175
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:222)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:189)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-08-12 13:20:43.176
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-08-12 13:20:48.398
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:222)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:189)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-08-12 13:20:48.399
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-08-12 13:20:48.757
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:222)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:189)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-08-12 13:20:48.758
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.lsp4e 2 0 2020-08-12 13:20:50.515
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-08-12 13:21:12.032
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:222)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:189)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-08-12 13:21:12.032
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-08-12 13:21:12.245
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:222)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:189)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-08-12 13:21:12.245
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-08-12 13:21:38.437
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:222)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:189)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-08-12 13:21:38.437
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+
+!ENTRY org.eclipse.ui.ide 4 0 2020-08-12 13:21:38.748
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileStore(IDEResourceInfoUtils.java:222)
+	at org.eclipse.ui.internal.ide.dialogs.IDEResourceInfoUtils.getFileInfo(IDEResourceInfoUtils.java:189)
+	at org.eclipse.ui.internal.ide.LinkedResourceDecorator.decorate(LinkedResourceDecorator.java:105)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:247)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:386)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:362)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-08-12 13:21:38.748
+!MESSAGE No file system is defined for scheme: org.jetbrains.kotlin.core.filesystem
