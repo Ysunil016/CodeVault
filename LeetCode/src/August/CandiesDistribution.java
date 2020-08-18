@@ -30,20 +30,7 @@ public class CandiesDistribution {
 				break;
 			}
 
-			System.out.println();
-			for (int x : result) {
-				System.out.print(x + " ");
-			}
-			System.out.println();
-
 		}
-
-//		System.out.println();
-//		for (int x : result) {
-//			System.out.print(x + " ");
-//		}
-//		System.out.println();
-
 		return result;
 	}
 
