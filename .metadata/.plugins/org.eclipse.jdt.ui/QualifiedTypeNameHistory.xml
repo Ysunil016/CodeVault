@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="jdk.javadoc.internal.doclets.toolkit.BaseConfiguration.Hidden"/>
     <fullyQualifiedTypeName name="July.ArrangingCoins"/>
     <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction"/>
     <fullyQualifiedTypeName name="sun.java2d.loops.ScaledBlit"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.awt.geom.CubicCurve2D"/>
 </qualifiedTypeNameHistroy>
