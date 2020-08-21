@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="July.ArrangingCoins"/>
     <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction"/>
     <fullyQualifiedTypeName name="sun.java2d.loops.ScaledBlit"/>
     <fullyQualifiedTypeName name="LongestSubArray"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="August.ReOrderList.ListNode"/>
 </qualifiedTypeNameHistroy>
