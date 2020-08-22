@@ -12,7 +12,6 @@ public class SortArrayByParity {
 	public static int[] sortArrayByParity(int[] A) {
 		int low = 0;
 		int high = A.length - 1;
-
 		while (low < high) {
 			int foundNumber = A[low];
 			if (foundNumber % 2 != 0) {
@@ -22,9 +21,7 @@ public class SortArrayByParity {
 			} else {
 				low++;
 			}
-
 		}
-
 		return A;
 	}
 
