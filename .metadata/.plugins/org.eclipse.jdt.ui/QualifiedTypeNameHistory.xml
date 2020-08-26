@@ -49,7 +49,6 @@
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="August.ReOrderList.ListNode"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="August.StreamOfCharacter.StreamChecker.Trie"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="August.LeftLeaveSum.TreeNode"/>
     <fullyQualifiedTypeName name="August.Solution"/>
     <fullyQualifiedTypeName name="August.LeftLeaveSum.Solution"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
 </qualifiedTypeNameHistroy>
