@@ -13,7 +13,6 @@
     <fullyQualifiedTypeName name="_60Days.Tree.TopViewBinaryTree.TreeNode"/>
     <fullyQualifiedTypeName name="July.ClimbingStairs"/>
     <fullyQualifiedTypeName name="August.DesignHashSet.MyHashSet"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="_60Days.Tree.IsBinaryFullTree.TreeNode"/>
@@ -30,7 +29,6 @@
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
-    <fullyQualifiedTypeName name="java.util.TreeMap"/>
     <fullyQualifiedTypeName name="QNode"/>
     <fullyQualifiedTypeName name="August.PathIII.TreeNode"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.util.RichDiagnosticFormatter.RichConfiguration"/>
@@ -43,12 +41,9 @@
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="java.util.TreeSet"/>
     <fullyQualifiedTypeName name="java.awt.geom.CubicCurve2D"/>
-    <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="August.ReOrderList.ListNode"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="August.StreamOfCharacter.StreamChecker.Trie"/>
     <fullyQualifiedTypeName name="java.util.Deque"/>
@@ -58,6 +53,11 @@
     <fullyQualifiedTypeName name="August.LeftLeaveSum.TreeNode"/>
     <fullyQualifiedTypeName name="August.Solution"/>
     <fullyQualifiedTypeName name="August.LeftLeaveSum.Solution"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.TreeMap"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
 </qualifiedTypeNameHistroy>
