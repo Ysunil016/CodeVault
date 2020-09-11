@@ -7,6 +7,8 @@ public class BullsCows {
 
 	public static void main(String[] args) {
 		System.out.println(getHint("1123", "0111"));
+
+		System.out.println(getHintOptamized("1123", "0111"));
 	}
 
 	public static String getHint(String secret, String guess) {
@@ -37,6 +39,32 @@ public class BullsCows {
 			}
 		}
 
+		return Bulls + "A" + Cows + "B";
+	}
+
+	// Optamized -> Without Using ArrayList -> Linear Time Complexity
+	public static String getHintOptamized(String secret, String guess) {
+		int[] numbers = new int[10];
+
+		// Storing Unequal Occurances
+		for (int i = 0; i < secret.length(); ++i) {
+			if (secret.charAt(i) != guess.charAt(i)) {
+				numbers[secret.charAt(i) - 48]++;
+			}
+		}
+
+		int Bulls = 0, Cows = 0;
+		// Checking for Bull and Cow
+		for (int i = 0; i < secret.length(); ++i) {
+			if (secret.charAt(i) == guess.charAt(i))
+				Bulls++;
+			else {
+				if (numbers[guess.charAt(i) - 48] > 0) {
+					Cows++;
+					numbers[guess.charAt(i) - 48]--;
+				}
+			}
+		}
 		return Bulls + "A" + Cows + "B";
 	}
 
