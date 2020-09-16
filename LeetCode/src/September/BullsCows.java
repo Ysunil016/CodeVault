@@ -6,8 +6,8 @@ import java.util.List;
 public class BullsCows {
 
 	public static void main(String[] args) {
-		System.out.println(getHint("1123", "0111"));
 
+		System.out.println(getHint("1123", "0111"));
 		System.out.println(getHintOptamized("1123", "0111"));
 	}
 
