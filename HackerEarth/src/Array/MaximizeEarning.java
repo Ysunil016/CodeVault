@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MaximizeEarning {
 
-//	static Scanner scan = new Scanner(System.in);
+	static Scanner scan = new Scanner(System.in);
 
 	public static void main(String[] args) {
 		int sN = scan.nextInt();

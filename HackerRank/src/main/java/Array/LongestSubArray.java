@@ -1,3 +1,5 @@
+package Array;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -8,7 +10,7 @@ public class LongestSubArray {
 
 	public static void main(String[] args) {
 		int count = scan.nextInt();
-		List<Integer> arr = new ArrayList<>();
+		List<Integer> arr = new ArrayList<Integer>();
 		for (int i = 0; i < count; i++)
 			arr.add(scan.nextInt());
 
