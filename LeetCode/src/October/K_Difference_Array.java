@@ -19,6 +19,7 @@ public class K_Difference_Array {
                 result++;
             }
         }
+        
         return result;
     }
 
