@@ -1,6 +1,6 @@
 package October;
 
-public class BankRobII {
+public class HouseRobII {
     public static void main(String[] args) {
         System.out.println(rob(new int[]{1,2,3,1}));
     }
