@@ -15,13 +15,6 @@ public class RotateArray {
     public static void rotate(int[] nums, int k) {
         k = k % nums.length;
 
-        //        [1,2,3,4] [5,6,7] - Need to Swap
-        //                        3
-
-        //        7 1 2 3 4 5 6
-        //        6 7 1 2 3 4 5
-        //        5 6 7 1 2 3 4
-
         int fromLastIndex = nums.length - k;
         int startIndex = 0;
 
