@@ -11,9 +11,8 @@ open class BST(value: Int) {
 }
 
 class ClosestInBST{
-
-
-    // O(n)
+// O(n) - Time Complexity
+// O(n) - Space Complexity
 // Using BST
     fun findClosestValueInBst(tree: BST, target: Int): Int {
         var queue = LinkedList<BST>()
@@ -45,7 +44,9 @@ class ClosestInBST{
     var optimalDifference = Int.MAX_VALUE
     var optimalElement = -1
 
-
+// O(lgn) = Avg. Time Complexity
+// O(lgn) => Avg. Stack Frame
+// O(1) => Space
     fun findClosestValueInBstDFS(tree: BST, target: Int): Int {
         optimalDifference = Int.MAX_VALUE
         optimalElement = -1
@@ -67,6 +68,24 @@ class ClosestInBST{
             if(tree.left!=null)
                 checkForSolution(tree.left!!,target)
         }
+    }
+
+    // Iterative
+    fun checkForSolutionOptimal(tree: BST, target: Int,closest:Int):Int{
+        var cNode = tree
+        var clo = closest
+        while (!cNode.equals(null)) {
+            if (abs(target - closest) > abs(target - cNode.value))
+                clo = cNode.value
+            cNode = if (target < cNode.value && cNode.left != null) {
+                cNode.left!!
+            } else if(target > cNode.value && cNode.right != null) {
+                cNode.right!!
+            }else{
+                break
+            }
+        }
+        return clo
     }
 
 }

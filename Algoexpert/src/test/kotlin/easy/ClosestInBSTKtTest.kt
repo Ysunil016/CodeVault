@@ -88,4 +88,47 @@ class ClosestInBSTKtTest{
         assertEquals(expectedValue,actualValue)
     }
 
+    @Test
+    fun shouldReturn_OPT(){
+        var root = BST(10)
+        root.left = BST(5)
+        root.right = BST(15)
+        root.left?.left = BST(-22)
+        root.left?.right = BST(5)
+        root.left?.left?.left = BST(1)
+        root.right?.left = BST(13)
+        root.right?.right = BST(22)
+        root.right?.left = BST(13)
+        root.right?.left?.left = BST(14)
+
+        val expectedValue = -22
+
+        val close = ClosestInBST()
+        val actualValue = close.checkForSolutionOptimal(root,-20, Int.MAX_VALUE)
+
+        assertEquals(expectedValue,actualValue)
+    }
+
+    @Test
+    fun shouldReturn_OPT2(){
+        var root = BST(10)
+        root.left = BST(5)
+        root.right = BST(15)
+        root.left?.left = BST(-22)
+        root.left?.right = BST(5)
+        root.left?.left?.left = BST(1)
+        root.right?.left = BST(13)
+        root.right?.right = BST(345)
+        root.right?.left = BST(13)
+        root.right?.left?.left = BST(14)
+
+        val expectedValue = 345
+
+        val close = ClosestInBST()
+        val actualValue = close.checkForSolutionOptimal(root,250, Int.MAX_VALUE)
+
+        assertEquals(expectedValue,actualValue)
+    }
+
+
 }
