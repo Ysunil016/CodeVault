@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="easy.ValidateSubSequenceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-16T09:27:42" hostname="Sunils-MacBook-Pro.local" time="0.021">
-  <properties/>
-  <testcase name="shouldReturnFalseForSubSequence" classname="easy.ValidateSubSequenceTest" time="0.02"/>
-  <testcase name="shouldReturnTrueForSubSequence" classname="easy.ValidateSubSequenceTest" time="0.0"/>
-  <testcase name="shouldReturnTrueForSubSequenceT" classname="easy.ValidateSubSequenceTest" time="0.0"/>
-  <system-out><![CDATA[4]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
