@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="easy.BranchSumTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-16T17:08:42" hostname="Sunils-MacBook-Pro.local" time="0.022">
-  <properties/>
-  <testcase name="shouldReturnValues" classname="easy.BranchSumTest" time="0.02"/>
-  <testcase name="shouldReturnValues_" classname="easy.BranchSumTest" time="0.002"/>
-  <system-out><![CDATA[[7, 11]
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
