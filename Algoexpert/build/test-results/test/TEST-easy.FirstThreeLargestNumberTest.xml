@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="easy.FirstThreeLargestNumberTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-18T13:19:36" hostname="Sunils-MacBook-Pro.local" time="0.028">
-  <properties/>
-  <testcase name="shouldReturnValidThreeLargest" classname="easy.FirstThreeLargestNumberTest" time="0.027"/>
-  <testcase name="shouldReturnValidThreeLargest__" classname="easy.FirstThreeLargestNumberTest" time="0.0"/>
-  <testcase name="shouldReturnValidThreeLargest_" classname="easy.FirstThreeLargestNumberTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
