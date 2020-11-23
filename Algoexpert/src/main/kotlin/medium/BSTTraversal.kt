@@ -30,8 +30,6 @@ class BSTTraversal {
         if(tree.right!=null)
         preOrderTraverse(tree.right!!,array)
 
-        println(array)
-
         return array
     }
 
@@ -44,11 +42,8 @@ class BSTTraversal {
         postOrderTraverse(tree.right!!,array)
         array.add(tree.value)
 
-        println(array)
-
         return array
     }
-
 }
 
 
