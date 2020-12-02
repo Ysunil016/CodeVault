@@ -4,7 +4,7 @@ import org.junit.Assert
 import org.junit.Test
 
 
-internal class KadanesAlgorithmTest {
+class KadanesAlgorithmTest {
 
     @Test
     fun kadanesAlgorithm() {
