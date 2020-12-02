@@ -1,8 +1,6 @@
 package advent
 
-import java.math.BigInteger
 import java.util.*
-import kotlin.collections.HashSet
 
 object Day_One_1 {
     var scan = Scanner(System.`in`)
