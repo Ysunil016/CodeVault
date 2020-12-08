@@ -23,6 +23,7 @@ object Day_Two {
             val posA = password[range[0].toInt()-1]
             val posB = password[range[1].toInt()-1]
 
+
             var res = 0
             if(posA == alpha)
                 res++
