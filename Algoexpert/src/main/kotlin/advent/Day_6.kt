@@ -2,13 +2,10 @@ package advent
 
 import java.lang.StringBuilder
 import java.util.*
-import kotlin.collections.HashMap
-import kotlin.collections.HashSet
 
 object Day_6 {
     var scan = Scanner(System.`in`)
 
-    @JvmStatic
     fun main(args: Array<String>) {
         var finalResult = 0
 
