@@ -3,3 +3,7 @@
 */target
 /.*
 *.class
+/out
+*/build
+*/*/build
+/build
