@@ -19,12 +19,12 @@ fun firstDuplicateValue(array: MutableList<Int>): Int {
 }
 
 fun firstDuplicateValueNegative(array: MutableList<Int>): Int {
-        for(input in array){
-            var value = kotlin.math.abs(input)
-            if(array[value-1] < 0) return value
-            array[value - 1] *= -1
-        }
-        return -1
+    for(input in array){
+        var value = kotlin.math.abs(input)
+        if(array[value-1] < 0) return value
+        array[value - 1] *= -1
+    }
+    return -1
 }
 
 
