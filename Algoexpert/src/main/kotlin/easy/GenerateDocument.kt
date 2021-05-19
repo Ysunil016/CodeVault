@@ -1,0 +1,4 @@
+package easy
+
+class GenerateDocument {
+}
