@@ -1,0 +1,4 @@
+package medium
+
+class SortStack {
+}
