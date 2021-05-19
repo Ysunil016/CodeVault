@@ -1,6 +1,5 @@
 plugins {
-    id 'java'
-    id 'org.jetbrains.kotlin.jvm' version '1.4.10'
+    id 'org.jetbrains.kotlin.jvm' version '1.4.32'
 }
 
 group 'org.example'
@@ -8,11 +7,11 @@ version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
-    jcenter()
 }
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2"
+    implementation 'junit:junit:4.13.1'
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }

@@ -5,5 +5,7 @@
 *.class
 /out
 */build
+*/*/*/build
 */*/build
 /build
+Algoexpert/build
