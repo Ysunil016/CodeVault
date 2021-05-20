@@ -1,4 +1,13 @@
-# Coding_Challenges
-LeetCode, HackerRank, Gayle Laakmann Macdowell's Book Problems
+##
+Coding from Technical Round.
+
 ###
-Set of Problem Solving Techniques Related to Portals and Companies
+Algoexpert
+###
+HackerRank
+###
+HackerEarth
+###
+Question Asked in Amazon
+###
+Leetcode
