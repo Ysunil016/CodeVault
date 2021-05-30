@@ -51,14 +51,14 @@ double athleteSpeed;
 int athleteAge;
 }
 ```
-
+![img.png](images/basic/img.png)
 #### 5. What do you mean by data encapsulation?
 
 Data Encapsulation is an Object-Oriented Programming concept of hiding the data attributes and their behaviors in a
 single unit. It helps developers to follow modularity while developing software by ensuring that each object is
 independent of other objects by having its own methods, attributes, and functionalities. It is used for the security of
 the private properties of an object and hence serves the purpose of data hiding.
-
+![img_1.png](images/basic/img_1.png)
 #### 6. Tell us something about JIT compiler.
 
 JIT stands for Just-In-Time and it is used for improving the performance during run time. It does the task of compiling
@@ -71,7 +71,7 @@ understandable code. JIT compiler is a part of JVM. When the JIT compiler is ena
 in the .class files and compiles them to get more efficient and native code. It also ensures that the prioritized method
 calls are optimized. Once the above step is done, the JVM executes the optimized code directly instead of interpreting
 the code again. This increases the performance and speed of the execution.
-
+![img_2.png](images/basic/img_2.png)
 #### 7. Can you tell the difference between equals() method and equality operator (==) in Java?
 
 ```equals()    ==``` <br>
@@ -182,6 +182,8 @@ class Athlete extends HumanBeing {
 
 Both class methods have the name walk and the same parameters, distance, and time. If the derived class method is
 called, then the base class method walk gets overridden by that of the derived class.
+![img_3.png](images/basic/img_3.png)
+![img_4.png](images/basic/img_4.png)
 
 #### 11. A single try block and multiple catch blocks can co-exist in a Java Program. Explain.
 
