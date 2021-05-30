@@ -18,6 +18,7 @@ Collections: In the case of Hashtables and HashMaps, keys are String objects. If
 then it can get modified during the period when it resides in the HashMaps. Consequently, the retrieval of the desired
 data is not possible. Such changing states pose a lot of risks. Therefore, it is quite safe to make the string
 immutable.
+![img_4.png](img_4.png)
 
 #### 2. How would you differentiate between a String, StringBuffer, and a StringBuilder?
 
@@ -344,6 +345,7 @@ When an exception occurs, first it searches to locate the matching catch block. 
 located, then that block would be executed. Else, the exception propagates through the method call stack and goes into
 the caller method where the process of matching the catch block is performed. This propagation happens until the
 matching catch block is found. If the match is not found, then the program gets terminated in the main method.
+![img_3.png](img_3.png)
 
 #### 18. Is it mandatory for a catch block to be followed after a try block?
 
@@ -373,7 +375,7 @@ is when it encounters ‘System.exit()’ method anywhere in try/catch block.
 #### 20. Can you call a constructor of a class inside the another constructor?
 
 Yes, the concept can be termed as constructor chaining and can be achieved using this().
-
+![img_2.png](img_2.png)
 #### 21. Contiguous memory locations are usually used for storing actual values in an array but not in ArrayList. Explain.
 
 In the case of ArrayList, data storing in the form of primitive data types (like int, float, etc.) is not possible. 
@@ -386,5 +388,5 @@ memory locations.
 
 However, the same does not apply to the arrays. Object or primitive type values can be stored in arrays in contiguous
 memory locations, hence every element does not require any reference to the next element.
-
-
+![img_1.png](img_1.png)
+![img.png](img.png)
