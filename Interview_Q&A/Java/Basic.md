@@ -16,22 +16,23 @@ Instance variables are those variables that are accessible by all the methods in
 All the objects of the class will have their copy of the variables for utilization. If any modification is done on these variables, then only that instance will be impacted by it, and all other class instances continue to remain unaffected.
 
 Example:
-
+```
 class Athlete {
 public String athleteName;
 public double athleteSpeed;
 public int athleteAge;
 }
+```
 Local variables are those variables present within a block, function, or constructor and can be accessed only inside them. The utilization of the variable is restricted to the block scope. Whenever a local variable is declared inside a method, the other class methods don’t have any knowledge about the local variable.
 
 Example:
-
+```
 public void athlete() {
 String athleteName;
 double athleteSpeed;
 int athleteAge;
 }
-
+```
 ## 5. What do you mean by data encapsulation?
 Data Encapsulation is an Object-Oriented Programming concept of hiding the data attributes and their behaviors in a single unit.
 It helps developers to follow modularity while developing software by ensuring that each object is independent of other objects by having its own methods, attributes, and functionalities.
@@ -46,7 +47,7 @@ JIT compiler is a part of JVM. When the JIT compiler is enabled, the JVM analyze
 Once the above step is done, the JVM executes the optimized code directly instead of interpreting the code again. This increases the performance and speed of the execution.
 
 ## 7. Can you tell the difference between equals() method and equality operator (==) in Java?
-equals() 	==
+```equals()	==``` <br>
 This is a method defined in the Object class. 	It is a binary operator in Java.
 This method is used for checking the equality of contents between two objects as per the specified business logic.	This operator is used for comparing addresses (or references), i.e checks if both the objects are pointing to the same memory location.
 Note:
@@ -56,7 +57,7 @@ Object class is considered as the parent class of all the java classes. The impl
 
 ## 8. How is an infinite loop declared in Java?
 Infinite loops are those loops that run infinitely without any breaking conditions. Some examples of consciously declaring infinite loop is:
-
+```
 Using For Loop:
 for (;;)
 {
@@ -73,10 +74,10 @@ do{
    // Business logic
    // Any break logic
 }while(true);
-
+```
 ## 9. Briefly explain the concept of constructor overloading
 Constructor overloading is the process of creating multiple constructors in the class consisting of the same name with a difference in the constructor parameters. Depending upon the number of parameters and their corresponding types, distinguishing of the different types of constructors is done by the compiler.
-
+```
 class Hospital {
 int variable1, variable2;
 double variable3;
@@ -91,14 +92,14 @@ public Hospital(double salaries) {
  variable3 = salaries
 }
 }
-
+```
 Three constructors are defined here but they differ on the basis of parameter type and their numbers.
 
 ## 10. Comment on method overloading and overriding by citing relevant examples.
 In Java, method overloading is made possible by introducing different methods in the same class consisting of the same name. Still, all the functions differ in the number or type of parameters. It takes place inside a class and enhances program readability.
 
 The only difference in the return type of the method does not promote method overloading. The following example will furnish you with a clear picture of it.
-
+```
 class OverloadingHelp {
    public int findarea (int l, int b) {
            int var1;
@@ -111,12 +112,12 @@ class OverloadingHelp {
            return var2;
    }
 }
-
+```
 Both the functions have the same name but differ in the number of arguments. The first method calculates the area of the rectangle, whereas the second method calculates the area of a cuboid.
 
 Method overriding is the concept in which two methods having the same method signature are present in two different classes in which an inheritance relationship is present. A particular method implementation (already present in the base class) is possible for the derived class by using method overriding.
 Let’s give a look at this example:
-
+```
 class HumanBeing {
        public int walk (int distance, int time) {
                int speed = distance / time;
@@ -130,12 +131,12 @@ class Athlete extends HumanBeing {
                return speed;
        }
 }
-
+```
 Both class methods have the name walk and the same parameters, distance, and time. If the derived class method is called, then the base class method walk gets overridden by that of the derived class.
 
 ## 11. A single try block and multiple catch blocks can co-exist in a Java Program. Explain.
 Yes, multiple catch blocks can exist but specific approaches should come prior to the general approach because only the first catch block satisfying the catch condition is executed. The given code illustrates the same:
-
+```
 public class MultipleCatch {
 public static void main(String args[]) {
  try {
@@ -156,31 +157,35 @@ public static void main(String args[]) {
  }
 }
 }
+```
 Here, the second catch block will be executed because of division by 0 (i / x). In case x was greater than 0 then the first catch block will execute because for loop runs till i = n and array index are till n-1.
 
 ## 12. Explain the use of final keyword in variable, method and class.
 In Java, the final keyword is used as defining something as constant /final and represents the non-access modifier.
 
-final variable:
+<b>Final variable:</b>
 When a variable is declared as final in Java, the value can’t be modified once it has been assigned.
 If any value has not been assigned to that variable, then it can be assigned only by the constructor of the class.
-final method:
+<br>
+<b>Final method:</b>
 A method declared as final cannot be overridden by its children's classes.
 A constructor cannot be marked as final because whenever a class is inherited, the constructors are not inherited. Hence, marking it final doesn't make sense. Java throws compilation error saying - modifier final not allowed here
-final class:
+<br>
+<b>Final class:</b>
 No classes can be inherited from the class declared as final. But that final class can extend other classes for its usage.
 
 ## 13. Do final, finally and finalize keywords have the same function?
 All three keywords have their own utility while programming.
 
 Final: If any restriction is required for classes, variables, or methods, the final keyword comes in handy. Inheritance of a final class and overriding of a final method is restricted by the use of the final keyword. The variable value becomes fixed after incorporating the final keyword. Example:
-
+```
 final int a=100;
 a = 0;  // error
 The second statement will throw an error.
-
+```
 Finally: It is the block present in a program where all the codes written inside it get executed irrespective of handling of exceptions. Example:
 
+```
 try {
 int variable = 5;
 }
@@ -200,7 +205,7 @@ System.gc(); // Garbage collector called
 public void finalize() {
 // Finalize called
 } 
-
+```
 ## 14. When can you use super keyword?
 The super keyword is used to access hidden fields and overridden methods or attributes of the parent class.
 Following are the cases when this keyword can be used:
@@ -208,6 +213,7 @@ Accessing data members of parent class when the member names of the class and it
 To call the default and parameterized constructor of the parent class inside the child class.
 Accessing the parent class methods when the child classes have overridden them.
 The following example demonstrates all 3 cases when a super keyword is used.
+```
 public class Parent{
        private int num = 1;
        
@@ -245,7 +251,7 @@ public class Parent{
            super.foo();    //Calls foo method of Parent class inside the Overriden foo method of Child class.
        }
    }
-
+```
 ## 15. Can the static methods be overloaded?
 Yes! There can be two or more static methods in a class with the same name but differing input parameters.
 
