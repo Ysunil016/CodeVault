@@ -9,7 +9,7 @@ public class PreTreeConstruct {
 	static class Node {
 		int data;
 		Node left = null;
-//		Node right = null;
+		Node right = null;
 
 		Node(int data) {
 			this.data = data;
