@@ -10,7 +10,5 @@
 .idea
 
 */build/*
-*/.gradle/*
-
-StriverSheet/build/*
-StriverSheet/.gradle/*
+*/.gradle
+*/*/build/*
