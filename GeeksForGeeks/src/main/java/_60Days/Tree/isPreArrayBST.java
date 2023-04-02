@@ -16,5 +16,6 @@ public class isPreArrayBST {
 		while (startIndex < endIndex) {
 			
 		}
+		return false;
 	}
 }

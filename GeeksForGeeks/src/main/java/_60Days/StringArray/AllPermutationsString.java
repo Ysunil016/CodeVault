@@ -6,7 +6,7 @@ public class AllPermutationsString {
 		getAllPalindrome("geeks");
 	}
 
-	private void getAllPalindrome(String str) {
+	private static void getAllPalindrome(String str) {
 		char[] chArray = str.toCharArray();
 
 		for (int i = 0; i < chArray.length; i++) {

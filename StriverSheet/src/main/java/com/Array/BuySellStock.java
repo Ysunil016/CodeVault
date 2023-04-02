@@ -3,11 +3,7 @@ package com.Array;
 public class BuySellStock {
 
     public int play(int[] stocks, int algoType) {
-        return switch (algoType) {
-            case 1 -> brute(stocks);
-            case 2 -> best(stocks);
-            default -> throw new RuntimeException("No Valid AlgoType");
-        };
+        return 0;
     }
 
     private int brute(int[] stocks) {
