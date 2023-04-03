@@ -8,15 +8,8 @@ public class SetMatrixZero {
     public int[][] play(int[][] matrix, int type) {
         long currentTime = System.nanoTime();
 
-        int[][] result = switch (type) {
-            case 1 -> brute(matrix);
-            case 2 -> optimal(matrix);
-            case 3 -> best(matrix);
-            default -> throw new RuntimeException("No Such Implementation");
-        };
-
         System.out.println("Time Taken - " + (System.nanoTime() - currentTime));
-        return result;
+        return new int[][]{{}};
     }
 
     private int[][] brute(int[][] matrix) {
