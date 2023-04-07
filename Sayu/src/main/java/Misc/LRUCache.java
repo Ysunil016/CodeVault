@@ -8,19 +8,45 @@ class LRUCache {
 //
 //        SET 1 2 SET 2 3 SET 1 5
 //        SET 4 5 SET 6 7 GET 4 SET 1 2 GET 3
-        lru.put(1, 2);
+//        lru.put(1, 2);
+//        lru.put(2, 3);
+//        lru.put(1, 5);
+//        lru.put(4, 5);
+//        lru.put(6, 7);
+//        System.out.println(lru.get(4));
+//        lru.put(1, 2);
+//        System.out.println(lru.get(3));
+
+
+//        System.out.println(lru.get(2));
+//        System.out.println(lru.keyValue);
+//        lru.put(2, 6);
+//        System.out.println(lru.keyValue);
+//        System.out.println(lru.get(1));
+//        System.out.println(lru.keyValue);
+//        lru.put(1, 5);
+//        System.out.println(lru.keyValue);
+//        lru.put(1, 2);
+//        System.out.println(lru.keyValue);
+//        System.out.println(lru.get(1));
+//        System.out.println(lru.keyValue);
+//        System.out.println(lru.get(2));
+//        System.out.println(lru.keyValue);
+
+//        [[2],[2,1],[1,1],[2,3],[4,1],[1],[2]]
+        lru.put(2, 1);
+        lru.put(1, 1);
         lru.put(2, 3);
-        lru.put(1, 5);
-        lru.put(4, 5);
-        lru.put(6, 7);
-        System.out.println(lru.get(4));
-        lru.put(1, 2);
-        System.out.println(lru.get(3));
+        lru.put(4, 1);
+        System.out.println(lru.get(1));
+        System.out.println(lru.get(2));
+
+
     }
 
     static class Cache {
         private final int cacheCapacity;
-        private final HashMap<Integer, Node> keyValue;
+        public final HashMap<Integer, Node> keyValue;
 
         private Node head;
         private Node tail;
@@ -60,8 +86,14 @@ class LRUCache {
         }
 
         public void put(int key, int value) {
+            if (keyValue.containsKey(key)) {
+                keyValue.get(key).value = value;
+                updateNodeSequence(key);
+                return;
+            }
+
             if (keyValue.size() >= cacheCapacity) evict();
-            if (keyValue.containsKey(key)) return;
+
             Node node = new Node(key, value);
             updateNodeSequence(node);
             keyValue.put(key, node);
