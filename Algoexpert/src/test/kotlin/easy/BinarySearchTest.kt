@@ -2,8 +2,6 @@ package easy
 
 import org.junit.Assert
 import org.junit.Test
-
-
 class BinarySearchTest{
 
     @Test

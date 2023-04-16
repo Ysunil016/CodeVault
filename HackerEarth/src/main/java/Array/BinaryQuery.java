@@ -18,18 +18,18 @@ public class BinaryQuery {
 			int qT = scan.nextInt();
 			if (qT == 0)
 				System.out.println(binaryQueryOddEven(ar, scan.nextInt(), scan.nextInt()));
-			else if (qT == 1)
-				ar = binaryQueryFlip(ar, scan.nextInt());
+			else if (qT == 1) {
+				binaryQueryFlip(ar, scan.nextInt());
+			}
 		}
 	}
 
-	static int[] binaryQueryFlip(int[] arr, int index) {
+	static void binaryQueryFlip(int[] arr, int index) {
 		index--;
 		if (arr[index] == 1)
 			arr[index] = 0;
 		else
 			arr[index] = 1;
-		return arr;
 	}
 
 	static String binaryQueryOddEven(int[] arr, int x, int y) {
