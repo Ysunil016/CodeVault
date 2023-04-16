@@ -44,46 +44,46 @@ class LRUCache {
 
 // [[3],[1,1],[2,2],[3,3],[4,4],[4],[3],[2],[1],[5,5],[1],[2],[3],[4],[5]]
         lru.put(1, 1);
-        lru.head.display();
+//         lru.head.display();
 
         lru.put(2, 2);
-        lru.head.display();
+//         lru.head.display();
 
         lru.put(3, 3);
-        lru.head.display();
+//         lru.head.display();
 
         lru.put(4, 4);
-        lru.head.display();
+//         lru.head.display();
 
         System.out.println(lru.get(4));
-        lru.head.display();
+//         lru.head.display();
 
         System.out.println(lru.get(3));
-        lru.head.display();
+//         lru.head.display();
 
         System.out.println(lru.get(2));
-        lru.head.display();
+// //         lru.head.display();
 
         System.out.println(lru.get(1));
-        lru.head.display();
+//         lru.head.display();
 
         lru.put(5, 5);
-        lru.head.display();
+//         lru.head.display();
 
         System.out.println(lru.get(1));
-        lru.head.display();
+//         lru.head.display();
 
         System.out.println(lru.get(2));
-        lru.head.display();
+//         lru.head.display();
 
         System.out.println(lru.get(3));
-        lru.head.display();
+//         lru.head.display();
 
         System.out.println(lru.get(4));
-        lru.head.display();
+//         lru.head.display();
 
         System.out.println(lru.get(5));
-        lru.head.display();
+//         lru.head.display();
 
     }
 
