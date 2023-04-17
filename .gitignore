@@ -43,7 +43,4 @@ build-*.json
 
 #Avoid Local Builds
 .gradle/
-gradlew
-gradlew.bat
-
-/*/build
+build
