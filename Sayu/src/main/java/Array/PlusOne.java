@@ -1,17 +1,12 @@
 package Array;
 
-import java.util.Arrays;
-
 public class PlusOne {
-
-    public static void main(String[] args) {
-        System.out.println(Arrays.toString(plusOne(new int[]{9, 9, 9, 9, 9, 9, 9}))); // [1, 0, 0, 0, 0, 0, 0, 0]
-        System.out.println(Arrays.toString(plusOne(new int[]{8, 9, 9, 9, 9, 9, 9}))); // [9, 0, 0, 0, 0, 0, 0]
-        System.out.println(Arrays.toString(plusOne(new int[]{9}))); // [1, 0]
-        System.out.println(Arrays.toString(plusOne(new int[]{9, 8, 8, 7}))); // [9, 8, 8, 8]
+    final int[] digits;
+    public PlusOne(int[] digits) {
+        this.digits = digits;
     }
 
-    private static int[] plusOne(int[] digits) {
+    int[] play() {
         int carry = 1;
         for (int idx = digits.length - 1; idx >= 0; idx--) {
             int currentSum = digits[idx] + carry;
