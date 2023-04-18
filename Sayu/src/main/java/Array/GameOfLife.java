@@ -4,21 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GameOfLife {
-    public static void main(String[] args) {
-//        int[][] board = new int[][]{{0, 1, 0}, {0, 0, 1}, {1, 1, 1}, {0, 0, 0}};
-        int[][] board = new int[][]{{1, 1}, {1, 0}};
+    final int[][] board;
 
-        gameOfLife(board);
-
-        for (int[] row : board) {
-            for (int value : row) {
-                System.out.print(value + " ");
-            }
-            System.out.println();
-        }
+    public GameOfLife(int[][] board) {
+        this.board = board;
     }
 
-    static private void gameOfLife(int[][] board) {
+    void play() {
         List<Coord> listOfChangedCoordinates = new ArrayList<>();
         for (int idx = 0; idx < board.length; idx++) {
             for (int idy = 0; idy < board[idx].length; idy++) {
@@ -35,7 +27,7 @@ public class GameOfLife {
 
     }
 
-    private static List<Coord> neighbourCoordinates(int x, int y, int[][] board) {
+    private List<Coord> neighbourCoordinates(int x, int y, int[][] board) {
         int[][] neighbours = new int[][]{{1, 0}, {-1, 0}, {0, 1}, {0, -1}, {1, 1}, {-1, -1}, {-1, 1}, {1, -1}};
         int maxX = board.length - 1;
         int maxY = board[0].length - 1;
@@ -65,7 +57,7 @@ public class GameOfLife {
         return updateCoordinates;
     }
 
-    static class Coord {
+    class Coord {
         int x, y, value;
 
         Coord(int x, int y, int value) {
