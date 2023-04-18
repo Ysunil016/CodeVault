@@ -25,7 +25,7 @@ class SearchWord_IITest {
         String[] words = new String[]{"oath", "pea", "eat", "rain"};
 
         List<String> actualResult = new SearchWord_II(board, words).play();
-        List<String> expectedResult = List.of("oa", "oaa");
+        List<String> expectedResult = List.of("oath", "eat");
 
         assertEquals(expectedResult, actualResult);
     }
