@@ -19,22 +19,13 @@ package Array;
 ["0","0","0","1","1"]
 */
 public class NumberOfIslands {
-    public static void main(String[] args) {
-/*
-        int[][] plane = new int[][]{
-                {1, 1, 1, 1, 0},
-                {1, 1, 0, 1, 0},
-                {1, 1, 0, 0, 0},
-                {0, 0, 0, 0, 0}
-        };
-*/
-        int[][] plane = new int[][]{
-                {1, 1, 0, 0, 0},
-                {1, 1, 0, 0, 0},
-                {0, 0, 1, 0, 0},
-                {0, 0, 0, 1, 1}
-        };
+    int[][] plane;
 
+    public NumberOfIslands(int[][] plane) {
+        this.plane = plane;
+    }
+
+    public int play() {
         int totalIsland = 0;
         for (int idx = 0; idx < plane.length; idx++)
             for (int idy = 0; idy < plane[0].length; idy++)
@@ -42,12 +33,10 @@ public class NumberOfIslands {
                     findIsland(plane, idx, idy);
                     totalIsland++;
                 }
-
-        System.out.println("Total Island :: " + totalIsland);
-
+        return totalIsland;
     }
 
-    private static void findIsland(int[][] plane, int x, int y) {
+    private void findIsland(int[][] plane, int x, int y) {
         if (x < 0 || y < 0 || x >= plane.length || y >= plane[0].length) return;
         if (plane[x][y] == 1) {
             plane[x][y] = 0;
