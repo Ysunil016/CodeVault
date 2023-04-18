@@ -16,18 +16,15 @@ Input: strs = ["eat","tea","tan","ate","nat","bat"]
 Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
 */
 public class GroupAnagram {
+    final String[] wordCollections;
 
-    public static void main(String[] args) {
-        String[] strings = new String[]{"eat", "tea", "tan", "ate", "nat", "bat"};
-        for (List<String> list : groupAnagrams(strings)) {
-            System.out.println(list);
-        }
+    public GroupAnagram(String[] wordCollections) {
+        this.wordCollections = wordCollections;
     }
 
-    private static List<List<String>> groupAnagrams(String[] strs) {
+    List<List<String>> play() {
         HashMap<Integer, List<String>> anagramStore = new HashMap<>();
-
-        for (String str : strs) {
+        for (String str : wordCollections) {
             int asciiValue = getAsciiSum(str);
             if (anagramStore.containsKey(asciiValue))
                 anagramStore.get(asciiValue).add(str);
@@ -43,7 +40,7 @@ public class GroupAnagram {
         return res;
     }
 
-    private static int getAsciiSum(String str) {
+    private int getAsciiSum(String str) {
         int asciiSum = 0;
         for (int idx = 0; idx < str.toCharArray().length; idx++) {
             asciiSum += (int) (str.charAt(idx) - 'a');
