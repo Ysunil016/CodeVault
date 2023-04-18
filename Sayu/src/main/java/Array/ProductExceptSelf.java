@@ -26,15 +26,13 @@ Input: nums = [-1,1,0,-3,3]
 Output: [0,0,9,0,0]
 */
 public class ProductExceptSelf {
-    public static void main(String[] args) {
-//        int[] array = new int[]{1,2,3,4};
-        int[] array = new int[]{-1, 1, 0, -3, 3};
+    final int[] arr;
 
-        int[] result = productExceptSelf(array);
-        Helper.print(result);
+    public ProductExceptSelf(int[] arr) {
+        this.arr = arr;
     }
 
-    static private int[] productExceptSelf(int[] arr) {
+    int[] play() {
         int[] result = new int[arr.length];
         Arrays.fill(result, 1);
 
